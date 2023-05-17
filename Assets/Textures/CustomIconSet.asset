@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41c8335e2ca96449f3991db5fa5702, type: 3}
+  m_Name: CustomIconSet
+  m_EditorClassIdentifier: 
+  quadIcons: []
+  spriteIcons:
+  - {fileID: 21300000, guid: fd0f50bf4d78a90479293e461da90690, type: 3}
+  - {fileID: 21300000, guid: 2b3dcf99d4d9f8d40bb003b57438f088, type: 3}
+  - {fileID: 21300000, guid: cb1ddc8894c8480428b744c7a72edaa5, type: 3}
+  - {fileID: 21300000, guid: f6f1502c5c73e754b935c4c23bf0fec1, type: 3}
+  - {fileID: 21300000, guid: be1a2b3463d97614ebc1f9e530a1b808, type: 3}
+  - {fileID: 21300000, guid: 68642711a1f267449af1e43e98471b17, type: 3}
+  - {fileID: 21300000, guid: 66b6028ec80f4e9458b72df0918ffb45, type: 3}
+  - {fileID: 21300000, guid: 97e00b4727d989e43a3fdf192ee29815, type: 3}
+  - {fileID: 21300000, guid: 599b88226cdf00d499752dbf426ab033, type: 3}
+  - {fileID: 21300000, guid: 6de517416728e33489481d22b327ee27, type: 3}
+  - {fileID: 21300000, guid: d7b19a1d14f3c6e448e2c7028a4abc80, type: 3}
+  - {fileID: 21300000, guid: b21afb2cbbdc58e4d9d6c142abc346b9, type: 3}
+  - {fileID: 21300000, guid: 915cf1c71ac8a8642915bd3788cc3ca5, type: 3}
+  - {fileID: 21300000, guid: 4dde0dd3374c225459d1ed5f3cf54363, type: 3}
+  - {fileID: 21300000, guid: f31b5928fe8b67740badaf800572ad1d, type: 3}
+  - {fileID: 21300000, guid: 58b3c6d8b7248bf4b98ef95ded99f69f, type: 3}
+  - {fileID: 21300000, guid: fb843fa5edce3a947b5da142bf499610, type: 3}
+  - {fileID: 21300000, guid: 6995c3ca8af8a5a4f86778fa24eb08c0, type: 3}
+  - {fileID: 21300000, guid: 3a70d53226a40f94f8209ed9136160dc, type: 3}
+  - {fileID: 21300000, guid: fb5bd2262a0637c4dbf3d85bc1841a5b, type: 3}
+  charIconFont: {fileID: 0}
+  charIcons:
+  - Name: AppBarAdjust
+    Character: 60370
+  - Name: AppBarClose
+    Character: 59153
+  - Name: AppBarDone
+    Character: 59643
+  - Name: AppBarHide
+    Character: 59244
+  - Name: AppBarShow
+    Character: 59154
+  - Name: AppBarHome
+    Character: 60175

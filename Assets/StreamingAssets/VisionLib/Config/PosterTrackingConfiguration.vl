@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.visionlib.com/v2.2.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "PosterTrackerLeaves",
+        "description": "Tracker for a reference image",
+        "author": "Visometry"
+    },
+    "tracker": {
+        "type": "posterTracker",
+        "version": 1,
+        "parameters": {
+            "imageURI": "project-dir:stones_scaled.jpg",
+            "realWidth": 0.2475, // Width of the reference image
+            "metric": "m"
+        }
+    }
+}

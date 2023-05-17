@@ -1,0 +1,37 @@
+{
+    "$schema": "https://docs.visionlib.com/v2.2.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "Empty VisionLib Model Tracker",
+        "description": "Model tracking configuration file without model definition",
+        "author": "Visometry"
+    },
+    "tracker": {
+        "type": "holoLensModelTracker",
+        "version": 1,
+        "parameters": {
+            "metric": "m",
+            "keyFrameDistance": 5,
+            "laplaceThreshold": 1,
+            "normalThreshold": 0.3,
+            "extendibleTracking": true,
+            "useColor": false
+        }
+    },
+    "input": {
+        "useImageSource": "cameraHoloLens",
+        "imageSources": [
+            {
+                "name": "cameraHoloLens",
+                "type": "camera",
+                "data": {
+                    "undistort": true,
+                    "cameramode": 0,
+                    "useColor": false,
+                    "fieldOfView": "narrow"
+                }
+            }
+        ]
+    }
+}

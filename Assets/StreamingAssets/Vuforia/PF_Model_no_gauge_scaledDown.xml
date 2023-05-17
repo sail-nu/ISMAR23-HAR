@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="PF_Model_no_gauge_scaledDown" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="PF_Model_no_gauge_scaledDowns_assembly" assemblyId="f65b5f9bfa1f4aabaa273e7ae0a6cb5b">
+<Part name="PF_Model_no_gauge_scaledDown" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0630064 0.0978498 1.49879" rotation="AD: 0.999734 0.102036 -0.251474 222.769" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

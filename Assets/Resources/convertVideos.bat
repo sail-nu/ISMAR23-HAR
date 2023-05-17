@@ -1,0 +1,1 @@
+for i in *.mp4; do ffmpeg -i "$i" -vf scale=640:480 "$i-out.mp4"; mv "$i-out.mp4" "$i"; done

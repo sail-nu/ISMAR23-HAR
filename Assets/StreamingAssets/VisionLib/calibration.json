@@ -1,0 +1,51 @@
+[
+	{
+		"alternativeDeviceIDs" : null,
+		"calibrated" : true,
+		"cameraName" : "Logitech BRIO",
+		"deviceID" : "Windows_LogitechBRIO",
+		"intrinsics" : 
+		{
+			"calibrationError" : 0.31123006343841553,
+			"cx" : 0.53537023067474365,
+			"cy" : 0.48741772770881653,
+			"fx" : 0.77803057432174683,
+			"fy" : 1.039644718170166,
+			"height" : 480,
+			"k1" : 0.0,
+			"k2" : 0.0,
+			"k3" : 0.0,
+			"k4" : 0.0,
+			"k5" : 0.0,
+			"k6" : 0.0,
+			"k7" : 0.0,
+			"k8" : 0.0,
+			"quality" : "awesome",
+			"s" : 0.0,
+			"width" : 640
+		},
+		"intrinsicsDist" : 
+		{
+			"calibrationError" : 0.25646832585334778,
+			"cx" : 0.51255208253860474,
+			"cy" : 0.50586235523223877,
+			"fx" : 0.7938309907913208,
+			"fy" : 1.0591182708740234,
+			"height" : 480,
+			"k1" : 0.23487693071365356,
+			"k2" : -0.61365634202957153,
+			"k3" : -0.0022217156365513802,
+			"k4" : 0.00029580143745988607,
+			"k5" : 0.51547765731811523,
+			"k6" : 0.0,
+			"k7" : 0.0,
+			"k8" : 0.0,
+			"quality" : "awesome",
+			"s" : 0.0,
+			"width" : 640
+		},
+		"organization" : "Northeastern",
+		"type" : "vlSDKCameraCalibration",
+		"version" : 2
+	}
+]

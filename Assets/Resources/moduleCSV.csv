@@ -1,0 +1,122 @@
+Module,Step,Step Text,Warning,Confirmation,Yes Confirmation Step Re-Direction,No Confirmation Step Re-Direction,Additional Information,First Step?,MANUAL
+00_App_Training,01_Step,,,,,,,,
+01_DIS_Disassembling Powder Feeder,01_DIS_Machine_Selection,,,,,,,,
+,02_DIS_Loading_Powder_Feeder_ Guides,,,,,,,,
+,03_DIS_Disassembling,,,,,,,,
+,04_DIS_Check_Pressure_Gauge,Did you set the gauge pressure to zero?,,Did you set the pressure gauge to zero?,01.05,01.04,"""Why zero pressure?"" If pressure is greater than zero; the cap will spring out during disassembly and can cause catastrophic injuries.",Yes,110
+,05_DIS_Disconnecting_Gas_Hose,Check the pressure gauge for zero pressure. Disconnect the gas hose.,Pressure must be zero.,,,,"""What's the gas hose connected to?"" The gas hose is connected to ... to pressurize the powder feeder and make particles reach the desired speed.",,110
+,06_DIS_Remove_Bolts,Loosen and remove the bolts.,Pressure must be zero.,,,,,,111
+,07_DIS_Fill_Port,Unscrew and open the fill port located on the top of the powder feeder.,,,,,,,111
+,08_DIS_Pry_Lid,Carefully pry open the lid using a screwdriver and disassemble the lid.,Be gentle with the screwdriver,,,,"""What happens if I'm not careful with the screwdriver?"" There is an O ring under the lid; which might be damaged by the screwdriver; resulting in a leakage.",,111
+,09_DIS_N95_Mask,Before you interact with the powder; make sure to put on a N95 mask.,,,,,"""What happens if I interact with the powder without a mask?""",,1
+,10_DIS_HEPA_Vacuum,Use Explosion Proof HEPA vacuum to clean the leftover powder.,,,,,“Do I need to do this if I’m using the same powder type?” It depends on the material type. If its aluminum; for example; you must clean the remaining powder after 2 days since AL in reaction with the air.,,1
+,11_DIS_Upper_Wavy_Spring,Gently remove the upper wave spring.,The wavy spring's orientation matters,,,,,,111
+,12_DIS_Drum,Remove the drum while wiggling it side to side.,,,,,,,111
+,13_DIS_Metering_Block,Remove the metering block while wiggling it side to side.,,,,,,,111
+,14_DIS_Lower_Wavy_Spring,Gently remove the lower wave spring.,The wavy spring's orientation matters,,,,"""Why is the orientation important?"" There is a plastic ring below the O ring that might get damaged if the ring is placed upside down; due to the engagement of metal with plastic.",,111
+,15_DIS_Plunger_Tip_Rod,Make sure the plunger tip has spring to it. Remove plunger tip and plastic rod.,The plunger tip must have a spring,,,,"""What's the purpose of the spring?"" The spring is used to make sure that the plunger tip does not press the powder. Spray quality depends significantly upon the spring.",,1
+02_CLE_Cleaning Powder Feeder,01_CLE_Machine_Selection,,,,,,,,
+,02_CLE_Loading_Powder_Feeder_Guides,,,,,,,,
+,03_CLE_Cleaning,,,,,,,,
+,04_CLE_Did_You_Disassemble,Did you disassemble the powder feeder?,,Did you disassemble the powder feeder?,02.05,01.04,,Yes,
+,05_CLE_Changing_Powder_Type,Every time the powder material is changed; clean the powder feeder before loading it with a new material.,,,,,,,1
+,06_CLE_Safety,For the following steps; dust collector and N95 mask are required.,,,,,,,1
+,07_CLE_N95_Mask,Before you interact with the powder; make sure to put on an N95 mask.,,,,,"""What happens if I interact with the powder without a mask?""",,1
+,08_CLE_Explosion_Proof_HEPPA,Turn on the dust collector and vacuum any excess powder using the Explosion Proof HEPA vacuum.,,,,,There should be 1-2 tablespoons of powder needing cleaned. ,,1
+,09_CLE_Feeder_Ring _Drum_Block,Use ethanol to wipe clean the two wave springs; fill port; the drum; the metering block; and the interior of Powder Feeder.,,,,,"""How often should I clean the parts?"" Cleaning steps are required by the operator each time they need to use a different powder. If using the same powder; cleaning is required after 2-4 hours of spray time. ",,112
+,10_CLE_Plunger_Tip,Use ethanol to wipe clean the two holes on the plunger tip.,Leave NO powder inside the holes,,,,"""What happens if some powder remains on the holes?"" If the operator forgets to properly clean the two holes; the whole spray could be wasted; depending on the material.",,1
+,11_CLE_Plastic_Rod,Use ethanol and a pipe cleaner to clean the plastic rod (lid side).,,,,,,,1
+,12_CLE_Bolts_Nuts_Lid,Use ethanol to wipe the remaining components of the lid including bolts and nuts.,,,,,,,112
+03_REA_Reassembly Powder Feeder,01_REA_Machine_Selection,,,,,,,,
+,02_REA_Loading_Powder_Feeder_Guides,,,,,,,,
+,03_REA_Reassembling,,,,,,,,
+,04_REA_Lower_Wavy_Spring,Put the lower wave spring back into the powder feeder. The wave spring must be placed in orientation that fits flush.,Orientation is important!,,,,,Yes,112-113
+,05_REA_Metering_Block_Drum_Alignment,Assemble the metering block and drum. Hold them toward light and make sure light is coming through.,Light must be coming through this gap!,,,,,,112-113
+,06_REA_Metering_Block,Put the metering block in to the powder feeder first. Make sure the lip on the block faces up.,Highspot must face up.,,,,,,112-113
+,07_REA_Drum,Put the drum inside the feeder. Turn with your hands until the 3 half rings fit and you hear a clicking sound and feel a drop.,Turn until they “click”.,,,,,,112-113
+,08_REA_Upper_Wavy_Spring,Put the upper wave spring back into the powder feeder. The wave spring must be placed in orientation that fits flush.,The wavy spring’s orientation matters.,,,,,,112-113
+,09_REA_Plastic_Rod,Put back the plastic rod on the lid.,,,,,,,1
+,10_REA_Plunger,Put back the plunger on top of the plastic rod. Don’t forget the spring. Everything should move up and down.,Don’t forget the spring.,,,,,,1
+,11_REA_Bolts,Put the bolts back into the lid and tighten them in a star pattern; similar to the lug nuts in a tire changing process.,Tighten in a star pattern.,,,,,,112-113
+,12_REA_Fill_Port,Put back and tighten threaded cap on the fill port.,,,,,,,112-113
+,13_REA_Gas_Hose,Connect the gas hose without tightening the bolts too much.,Don't tighten too much.,,,,,,1
+04_LOA_Loading Powder Feeder,01_LOA_Machine_Selection,,,,,,,,
+,02_LOA_Loading_Powder_Feeder_Guides,,,,,,,,
+,03_LOA_Loading,,,,,,,,
+,04_LOA_Open_Fill_Port,Unscrew and open the fill port cap located on the top of the powder feeder.,,,,,,Yes,99-100
+,05_LOA_N95_Mask,Before you interact with the powder make sure to put N95 mask.,,,,,,,
+,06_LOA_Pour_Funnel,Turn on the Dust Collector. Using a funnel; pour the required amount of powder. Rotate the funnel as you pour.,,,,,,,99
+,07_LOA_ Close_Fill_Port,Tighten threaded cap on the fill port.,,,,,,,99
+,08_LOA_Clean_Funnel,Immediately clean the funnel and powder container with the Explosion Proof HEPA vacuum.,,,,,,,99
+05_MAN_Manual Nozzle Inspection,01_MAN_Machine_Selection,,,,,,,,
+,02_MAN_Loading_Manual_Nozzle_Insepction_Guides,,,,,,,,
+,03_MAN_Manual,,,,,,,,
+,04_MAN_Loosen_Nozzle_Base,Use the VRC Nozzle Collet wrench to loosen the nozzle base.,,,,,The VRC nozzle has a little notch at the end. Use it to latch onto the groove at the end of the nozzle shaft.,Yes,
+,05_MAN_Rotate_Clockwise,Rotate the VRC nozzle collet wrench clockwise; while using another regular wrench to hold the base steady.,,,,,,,
+,06_MAN_Remove_Collar,Remove the collar from the nozzle. Use the gage pins to measure the nozzle throat.,,,,,Go through the different gage pins until you find resistance while inserting the pin into the nozzle.,,
+,07_MAN_Gage_Pin,Is the gage pin not going through the nozzle?,Watch for resistance.,Is the gage pin not going through the nozzle?,05.08,05.06,The correct nozzle measurement is the pin size right before the pin that doesn’t fit. Mark down the gage pin measurement.,,
+,08_MAN_Install_Nozzle,If the nozzle measurement is within the threshold limit of the spray sheet. Install nozzle to applicator.,,,,,Nozzle sizes determine deposition of the spray. If the nozzle size is too big the gas will flow slower. ,,
+06_ADC_Applicator Disassembly and Cleaning,01_ADC_Machine_Selection,,,,,,,,
+,02_ADC_Loading_Applicator_Disassembling_Guides,,,,,,,,
+,03_ADC_Disassembling,,,,,,,,
+,04_ADC_Remove_Thermocouple,Unplug the thermocouple.,,,,,,Yes,
+,05_ADC_Loosen_Gas_Hose_Bolt,Loosen the gas hose bolt using the appropriate wrench; making sure the angle is correct.,Tighten the bolt holding the nozzle with a wrench.,,,,“How does the wrench help?” If the applicator rotates or moves while the arm is being tightened; the ceramic pieces will break. The wrench keeps the nozzle locked in position and prevents that.,,
+,06_ADC_Unscrew_Cold_Gas_Hose,Unscrew the powder feed hose by hand.,,,,,,,
+,07_ADC_Which_Applicator_Disassembling,Barrel or Block Applicator? Block applicator coming in near future.,,Are you disassembling the barrel applicator?,06.08,12.01,,,
+,08_ADC_Loosen_4_Bolts,Loosen the 4 bolts on the nozzle palate using the appropritate wrench and then remove them by hand.,,,,,,,
+,09_ADC_Remove_Applicator,Remove the applicator from the system and check for any clogs.,If the clog is of a metal other than aluminum; contact the manufacturer.,,,,“Why check for clogs?” Clogs are determined by the material and the temperature being sprayed and the operator can’t do much about the clog but it needs to be cleaned.,,
+,10_ADC_Are_There_Clogs,Are there any clogs?,Check for clogs.,Are there any clogs?,06.06,06.08,,,
+,11_ADC_Wear_PPE,Wear PPE (gloves; lab coat; and face shield).,,,,,,,
+,12_ADC_NaOH_Container,Place applicator into sodium hydroxide (NaOH) container.,Only do this for aluminum clogs.,,,,“Why Sodium Hydroxide?” The sodium hydroxide solution dissolves the aluminum residue.,,
+,13_ADC_Wash_And_Dry,Wash off the NaOH with running water and then dry it off with shop air.,,,,,,,
+07_ARE_Applicator Reassembly,01_ARE_Machine_Selection,,,,,,,,
+,02_ARE_Loading_Applicator_Reassembling_Guides,,,,,,,,
+,03_ARE_Reassembling,,,,,,,,
+,04_ARE_Which_Applicator_Reassembling,Barrel or Block Applicator? Block applicator coming in near future.,,Are you mounting the barrel applicator?,07.05,12.01,,Yes,
+,05_ARE_Check_And_Clean_Clogs,Did you check and clean the clogs with sodium hydroxide?,,Did you check and clean the clogs with sodium hydroxide?,07.06,06.07,,,
+,06_ARE_Parallel_Screws,Put 2 parallel screws on to the plate.,Make it tight! The plate should not wiggle.,,,,Why is it important that the plate does not move? Movement of the plate after it is attached can lead to breaking of the ceramic pieces behind it.,,
+,07_ARE_Screw_and_Ceramic,Put one screw and ceramic piece on and fix the plate onto the system.,Don’t make this fixture too tight!,,,,“Why is this necessary?” To fix the other 3 screws and ceramic pieces in place; there needs to be a little gap to be able to slide the ceramic pieces in.,,
+,08_ARE_Other_Screws_and_Ceramic,Fix the other three screws onto the plate and tighten them with the shorter end of the wrench for more effectiveness.,All the screws cannot be too tight.,,,,“Why not?” The screws being too tight can break the ceramic pieces; leading to failure of operation.,,
+08_AGH_Applicator Gas Hose Connection,01_AGH_Machine_Selection,,,,,,,,
+,02_AGH_Loading_Applicator_Gas_Hose_Connection_Guides,,,,,,,,
+,03_AGH_Gas_Hose_Connection,,,,,,,,
+,04_AGH_Brush_Off_Remains,Brush off the remains for a leak free connection.,All the screws cannot be too tight.,,,,,Yes,
+,05_AGH_Apply_Coating,Apply anti-seize coating on the fastener side.,,,,,,,
+,06_AGH_Screw_On_Arm,Screw on the arm through the bolt on the fastener.,Hold the top with one hand so the arm does not rotate.,,,,“Why should I hold it?” It is important that the part over the arm and on the side of the applicator do not collide and hence holding that area while tightning the bolt keeps it upright.,,
+,07_AGH_Tighten_Bolt_With_Wrenches,Tighten the gas hose bolt using the appropriate wrench; making sure the angle is correct.,Tighten the bolt holding the nozzle with a wrench.,,,,“How does the wrench help?” In case the applicator rotates or moves while the arm is being tightned; the ceramic pieces would break. The wrench keeps the nozzle locked in position and prevents that.,,
+,08_AGH_Cold_Gas_Hose,Screw on the powder feed hose by hand; then use two wrenches to tighten more.,,,,,,,
+,09_AGH_Plug_In_Thermocouple,Plug in the thermocouple.,,,,,,,
+09_SCO_Substrate Prep Scotch Brite,01_SCO_Machine_Selection,,,,,,,,
+,02_SCO_Loading_Substrate_Preparation_Guides,,,,,,,,
+,03_SCO_Substrate_Prep_Scotch_Briting,,,,,,,,
+,04_SCO_Scrub_Sample,Use green scotch brite to scrub the sample.,,,,,There is no technique for the scotch-briting. It’s important to change directions many times since any little bumps on the surface will ruin the whole spraying.,Yes,
+,05_SCO_Clean_Substrate_Surface,Apply ethanol and clean the surface of the substrate until you don't see any more residue.,,,,,,,
+10_SLC_System Leak Check,01_SLC_Machine_Selection,,,,,,,,
+,02_SLC_Loading_System_Leak_Check_Guides,,,,,,,,
+,03_SLC_Remove_Nozzle,Remove the nozzle with 2 wrenches.,,,,,,Yes,
+,04_SLC_Replace_Gas_Kit,Replace the gasket.,,,,,"""How ofter should I change the gasket?"" Gasket should be replaced after two sprays.",,
+,05_SLC_Install_Leak_Check_Assembly,Install Leak Check Assembly (VRC Part number: V002542).,,,,,,,
+,06_SLC_Close_Leak_Check_Assembly_Valve,Close the Leak Check Assembly Valve.,,,,,,,
+,07_SLC_Hearing_Protection,,Put on your Hearing Protection.,,,,,,
+,08_SLC_Navigate_To_Computer,Navigate to the computer and Enable Service.,,,,,,,
+,09_SLC_Commanded_Pressure_Zero,Ensure commanded pressure is 0 (P_SP = 0). Open Nitrogen Valve.,Ensure the P_SP is 0 bar.,,,,,,
+,10_SLC_Open_Powder_Feeder_Valve,Open the Powder Feeder Valve.,,,,,,,
+,11_SLC_Increase_Spray_Pressure,Gradually increase P_SP to the spray pressure in 5-10 bar increments. Check for leaks. (Spray pressure information can be found at Spray Sheet).,What happens if I increase the pressure more than 10 bar? If there is a leak; instead of hearing a hiss; you will hear a boom.,,,,,,
+,12_SLC_Listen_For_Audible_Leaks,Turn off any additional sound emitting equipment. Listen for audible leaks. Indentify leak points further with soapy water solution.,Check for leaks.,,,,,,
+,13_SLC_Common_Leaking_Points,Common leaking points are hoses and connections within the booth; powder feeder drive seals; powder feeder connection points; ball valves; nozzle gaskets; and heater connection points.,Check for leaks.,,,,Leak Check Assembly can make small hissing sounds. If it’s more than small hissing; it’s an indication that the gasket has to be changed.,,
+,14_SLC_Identify_All_Leaks,Identify all leak points before depressurizing.,Check for leaks.,,,,,,
+,15_SLC_Ensure_System_Pressurized,Ensure the system is pressurized to at least the spray pressure setpoint during leak check and no audible leaks are detected before proceeding.,Check for leaks.,,,,Going 5 Bar above the spray pressure is recommended.,,
+,16_SLC_Depressurize_System,Depressurize system by setting P_SP to 0 Bar. Nitrogren gas will be vented within the gas cabinet.,Vent nitrogen gas.,,,,,,
+,17_SLC_Close_Nitrogen_Valve,When system is fully depressurized; close nitrogen valve and powder feed valve. Then remove leak adapter.,Remove leak check adapter.,,,,,,
+11_REC_Choose Recipe Input for Spray,01_REC_Machine_Selection,,,,,,,,
+,02_REC_Loading_Recipe_Input_Guides,,,,,,,,
+,03_REC_New_Recipe,Click new recipe button. Enter recipe name and #.,,,,,Clear this recipe # if the recipe will not be saved. Skip this step if you are using a saved recipe.,Yes,
+,04_REC_Spray_Setpoints,Enter spray setpoints.,,,,,,,
+,05_REC_Gas_Types,Select gas types.,,,,,,,
+,06_REC_Nozzle_Type,Select nozzle type and size.,,,,,,,
+,07_REC_Preheat_Setpoints,Enter preheat setpoints.,,,,,,,
+,08_REC_Cooldown_Setpoints,Enter cooldown setpoints.,,,,,,,
+,09_REC_Heater_Temp,Adjust max heater temperature.,,,,,,,
+,08_REC_Save,Save the recipe parameters.,,,,,,,
+,10_REC_Find_Saved_Recipe,Either select from a pulldown list of existing recipe names; or enter a known recipe number.,,,,,,,
+12_DEA_Dead End Module,01_DEA_Choose Another Module,This module is not yet ready. Please make a new selection from the modules menu.,,,,,,Yes,

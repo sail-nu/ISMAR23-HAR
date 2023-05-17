@@ -1,0 +1,40 @@
+{
+    "$schema": "https://docs.visionlib.com/v2.2.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "AutoInit Tracker for HoloLens",
+        "description": "AutoInit tracking configuration file for HoloLens",
+        "author": "Visometry"
+    },
+    "tracker": {
+        "type": "holoLensModelTracker",
+        "version": 1,
+        "parameters": {
+            "modelURI": "project-dir:Models/VLMiniCar.obj",
+            "metric": "m",
+            "keyFrameDistance": 50,
+            "laplaceThreshold": 1,
+            "normalThreshold": 0.3,
+            "maxFramesFeaturePrediction": 3,
+            "extendibleTracking": true,
+            "autoInit": true,
+            "useColor": false
+        }
+    },
+    "input": {
+        "useImageSource": "cameraHololens",
+        "imageSources": [
+            {
+                "name": "cameraHololens",
+                "type": "camera",
+                "data": {
+                    "undistort": true,
+                    "cameramode": 0,
+                    "useColor": false,
+                    "fieldOfView": "narrow"
+                }
+            }
+        ]
+    }
+}

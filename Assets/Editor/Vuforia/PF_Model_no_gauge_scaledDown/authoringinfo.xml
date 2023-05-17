@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.9.3">
+<ModelTarget name="PF_Model_no_gauge_scaledDown" targetId="b6beafb2c0a7450c9023db7b2ebbab15" version="14.0" toolVersion="10.9.3" bbox="-0.328000 -0.035342 -0.152578 0.205663 0.552643 0.152578" previewImage="b6beafb2c0a7450c9023db7b2ebbab15_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="PF_Model_no_gauge_scaledDowns_assembly" assemblyId="f65b5f9bfa1f4aabaa273e7ae0a6cb5b">
+<Part name="PF_Model_no_gauge_scaledDown" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0630064 0.0978498 1.49879" rotation="AD: 0.999734 0.102036 -0.251474 222.769" image="PF_Model_no_gauge_scaledDown_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

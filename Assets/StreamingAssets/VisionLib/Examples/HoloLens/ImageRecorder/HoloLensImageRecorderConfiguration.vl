@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.visionlib.com/v2.2.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "Simple Recording Example for HoloLens",
+        "description": "Configuration file allowing for recording image sequences with SLAM extrinsic data",
+        "author": "Visometry"
+    },
+    "tracker": {
+        "type": "imageRecorder",
+        "version": 1,
+        "parameters": {
+            "recordURIPrefix": "capture-dir:/VisionLib/record/image_",
+            "recordImageType": "jpg",
+            "extendibleTracking": true
+        }
+    }
+}

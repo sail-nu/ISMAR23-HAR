@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<licenses>
+ <license expiredate="02.09.2022" name="Vision" version="2.00" zkey="kwADAgAUkrtttv3pUc+xFsBmHWE1188f15sAFHX8WP+Au6JIBeBHYXj0rQGsIijN">
+  <comment>Created by bockholt</comment>
+  <user>
+   <organization>Northeastern</organization>
+   <street>Boston</street>
+   <city>Boston</city>
+   <country>US</country>
+   <contact>labhxm@gmail.com</contact>
+  </user>
+  <hosts>
+   <host id="ANY" name="Allow any ID"/>
+  </hosts>
+  <features>
+   <feature name="ANY"/>
+   <feature name="licenseType" value="trialSDK"/>
+   <feature name="feature:NumberOfStartsPerDeployment" value="5"/>
+   <feature name="feature:AllowInjectingImage"/>
+   <feature name="feature:AllowUnlimitedModels"/>
+   <feature name="feature:AllowUnregisteredModels"/>
+   <feature name="feature:AllowDeviceiOS"/>
+   <feature name="feature:AllowDeviceAndroid"/>
+   <feature name="feature:AllowDeviceWindows"/>
+   <feature name="feature:AllowDeviceMacOS"/>
+   <feature name="feature:AllowDeviceUWP"/>
+   <feature name="feature:AllowDeviceHoloLens"/>
+   <feature name="featureBundle:Basic"/>
+  </features>
+ </license>
+</licenses>
