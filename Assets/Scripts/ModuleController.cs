@@ -312,6 +312,7 @@ public class ModuleController : MonoBehaviour
     private void UpdateUI()
     {
         modulePanel.SetActive(true);
+        videoPanelController.SetActive();
         recordingButton.SetActive(true); 
         UpdatePanelText();
         UpdateButttonNavigationVisibility();
@@ -458,11 +459,13 @@ public class ModuleController : MonoBehaviour
     {
         if (currentStep.HasVideos())
         {
+            videoPanelController.SetActive();
             videoButton.SetActive(true);
             videoPanelController.SetVideoClip(currentStep.GetVideos()[0]);
         }
         else
         {
+            videoPanelController.SetInactive();
             videoButton.SetActive(false);
         }
     }
