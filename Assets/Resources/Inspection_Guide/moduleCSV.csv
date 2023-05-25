@@ -1,324 +1,129 @@
 ﻿Module,Step,Step Text,Why State
-01_Char,01_01,Locate the Interchangeable Anvil Micrometer.,-
-,02_01,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_01,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The shortest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,04_01,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,05_01,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the shortest Anvil in the group. Slide the shortest Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,06_01,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999-3.001. If it is not then stop and inform instructor.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_01, If the previous step is compliant within the tollerance defined; then check 3.970-3.980 O.D. (diameter -A-) on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X,-
 ,,,
-,,,
-02_Char,01_02,Locate the Electronic Micrometer. ,-
+02_Char,01_02,Locate the Electronic Micrometer. ,
 ,02_02,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
 ,03_02,Note the mode (IN or mm); make sure the Micrometer in in ''IN'' mode by depressing the left button until ''IN'' is displayed on the screen.,If the Micrometer is not in the correct mode (IN);  you will not attain an accurate reading.
 ,04_02,Zero out the Micrometer by turning the Thimble then Friction Thimble clockwise until the micrometer is closed and you hear the ratchet thimble ''Click''. Press Zero button on micrometer.,If you do not zero out the Micrometer and give the gage a starting point of zero; then any elecrtronic error will compound and skew the reading.
 ,05_02,With the O-Ring Plug sample on the bench stable; measure the .480-.500 thickness (see sketch). Take the measurement by first opening the Micrometer and then capturing the surfaces to be measured between the inside measuring contacts. Be careful not to let the contact points touch/measure into the radius in the base of these surfaces.,If you let the contact points touch/measure into the radius in the base of this surface; you will not be getting a true reading.
 ,06_02,Check 3 places approximately 120 degrees apart and calculate average.,You need to turn the part 120 degrees and calculate the average; because the surfaces might not be parallel and 3 measurements gives a more accurate representation.
-,07_02,Record final value on paper to the nearest .00X,-
+,07_02,Record final value on paper to the nearest .00X,
 ,,,
 ,,,
-03_Char,01_03,Locate the Interchangeable Anvil Micrometer.,-
+03_Char,01_03,Locate the Interchangeable Anvil Micrometer.,
 ,02_03,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
 ,03_03,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The 3rd longest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
 ,04_03,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
 ,05_03,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the 3rd longest Anvil in the group. Slide the Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
 ,06_03,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999-3.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_03, If the previous step is compliant within the tollerance defined; check 2.495-2.505 O.D. on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X.,-
+,07_03, If the previous step is compliant within the tollerance defined; check 2.495-2.505 O.D. on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X.,
 ,,,
 ,,,
-04_Char,01_04,Locate the Interchangeable Anvil Mic ,-
-,02_04,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_04,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The 3rd longest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,04_04, Cleanliness is most important here as every surface must be free from any foreign matter and wiped clean while performing the next step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,05_04,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the 3rd longest Anvil in the group. Slide the Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,06_04,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999 - 3.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_04, If the previous step is compliant within the tollerance defined then Check 2.995-3.005 O.D. on the O-Ring Plug sample part or parts.,-
-,08_04,Record value on paper to the nearest .00X,
 ,,,
-,,,
-05_Char,01_05,Locate the Electronic Caliper.,-
-,02_05,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
-,03_05,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,04_05,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,05_05,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
-,06_05,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,07_05,Take .492 - .502 Thickness measurement from sample part by first opening the caliper and capture the surfaces to be measured being careful not to let the contact points touch/measure into the radius in the base of these surfaces.,If you let the contact points touch/measure into the radius in the base of this surface; you will not be getting a true reading.
-,08_05,Slightly rock the Caliper back and forth to determine the smallest measurest that is displayed on the screen during the rocking motion. This will be the true measurement.,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly.\nIf you do not rock the Caliper back and forth; you will not be getting a true reading.
-,09_05,Rotate the sample part approximately 180 degrees around the centerline shown and make the same measurement.,You need to turn the part 180 degrees and make another measurement; because the surfaces might not be parallel and 2 measurements gives a more accurate representation.
-,10_05,Compare both measurements and if they are not the same value continue to make measurements until you are confident you have an accurate measrement.,You need to continue rotating and making measurements; so that you are more confident that your technique is correct.
-,11_05,Record final value on paper to the nearest .00X,-
-,,,
-,,,
-06_Char,01_06,Locate the Electronic Height Gage.,-
+06_Char,01_06,Locate the Electronic Height Gage.,
 ,02_06,Find a clean flat surface on the table to work on. Place a sample part with no burrs flat on the table. Setup the gage with the beveled extender in place as shown.,If the surface is not flat or has burrs on it; you will not produce a proper measurement.
 ,03_06,Unlock the 2 locking screws by turning them counter-clockwise.,The locking screws are used later in the measurement and must be unlocked to allow the body of the gage to move into location to take the measurement.
-,04_06,Move the slide up or down to turn on the electronics of the gage.,-
+,04_06,Move the slide up or down to turn on the electronics of the gage.,
 ,05_06,Make sure that the gage is in IN (inch) mode. If not; press the ''IN/mm'' button to switch to ''IN'' mode.,If the Height Gage is not in the correct mode (IN); you will not attain an accurate reading.
 ,06_06,Zero out the gage by sliding the body of the gage down fully until the beveled extender lightly touches the tabe surface and press ''Zero'' on the gage to initialize.,If you do not zero the gage and give the gage a starting point of zero; then any electronic error will compound and skew the reading.
 ,07_06,Raise the body of the gage so that the beveled contact can be slid over and touch the top surface of the O-Ring Plug. This can be done by raising the body so that it is approxamitely .100 over the surface to be measured; then lock (A) of the clamping screws.  ,This would allow for a rough positioning of the beveled contact above the part.
 ,08_06,Turn the knurled fine adjustment knob to lower the beveled contact until it just touches the surface. Sliding the sample part back and forth under the beveled extender may be necessary to feel the touch. Note the reading on the display. Then lock (B) of the clamping screws. Make sure the base of the gage is firm on the table and the fine adjustment does not lift the base off the table.,This would allow for a precise positioning of the beveled contact above the part.
 ,09_06,Check one more position on the same surface to confirm the same value.,You need to check another position ; because the surfaces might not be parallel and 2 measurements gives a more accurate representation.
-,10_06,Record value on paper to the nearest .00X,-
+,10_06,Record value on paper to the nearest .00X,
 ,,,
 ,,,
-07_Char,01_07,Locate the Interchangeable Anvil Micrometer.,-
-,02_07,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_07,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The 2nd longest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,04_07,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,05_07,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the 2nd longest Anvil in the group. Slide the Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,06_07,Calibration can be completed with the second longest (2'') calibration Standard. Measure the 2.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 1.999 - 2.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_07, If the previous step is compliant within the tollerance defined; check 1.490-1.500 O.D. on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X.,-
 ,,,
+09_Char,01_09,Locate the Electronic Caliper.,
+,02_09,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,
+,03_09,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
+,04_09,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
+,05_09,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
+,06_09,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
+,07_09, If the previous step is compliant within the tollerance defined; check 1.495-1.505 Width on the O-Ring Plug sample part or parts. ,
+,08_09,Slightly rock the Caliper back and forth to determine the smallest measurest that is displayed on the screen during the rocking motion. This will be the true measurement.,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly. If you do not rock the Caliper back and forth; you will not be getting a true reading.
+,09_09,Rotate the sample part approximately 180 degrees and make the same measurement.,You need to turn the part 180 degrees and make another measurement; because the surfaces might not be parallel and 2 measurements gives a more accurate representation.
+,10_09,Compare both measurements and if they are not the same value continue to make measurements until you are confident you have an accurate measurement.,You need to continue rotating and making measurements; so that you are more confident that you technique is correct.
+,11_09,Record final value on paper to the nearest .00X,
 ,,,
-09_Char,01_09,Locate the Electronic Caliper.,-
-,02_09,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_09,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
-,04_09,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,05_09,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,06_09,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
-,07_09,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,08_09, If the previous step is compliant within the tollerance defined; check 1.495-1.505 Width on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X.,-
-,,,
-,,,
-10_Char,01_10,Locate the Interchangeable Anvil Micrometer.,-
-,02_10,Make sure that the Lock Nut is loose before making the measurement.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_10,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The 2nd longest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,04_10,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,05_10,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the 2nd longest Anvil in the group. Slide the Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,06_10,Calibration can be completed with the second longest (2'') calibration Standard.  Measure the 2.000'' Calibration Standard.  Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 1.999 - 2.001.  If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_10, If the previous step is compliant within the tollerance defined; check 1.740-1.750 Outside Diameter on the O-Ring Plug sample part or parts. Record value on paper to the nearest .00X.,-
-,,,
-,,,
-11_Char,01_11,Locate the Electronic Caliper.,-
-,02_11,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
-,03_11,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,04_11,Wipe clean with a finger both outside measuring contacts feeling for burrs as this is done measuring.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,05_11,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
-,06_11,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,07_11,Take .490-.500 Thickness measurement from the part by first opening the Caliper and capturing the surfaces to be measured between the outside measuring contacts. Be careful not to let the contact points touch/measure into the radius in the base of these surfaces.,If you let the contact points touch/measure into the radius in the base of these surfaces; you will not be getting a true reading.
-,08_11,Slightly rock the Caliper back and forth to determine the smallest measurest that is displayed on the screen during the rocking motion. This will be the true measurement.,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly.\nIf you do not rock the Caliper back and forth; you will not be getting a true reading.
-,09_11,Rotate the sample part approximately 180 degrees and make the same measurement.,You need to turn the part 180 degrees and make another measurement; because the surfaces might not be parallel and 2 measurements gives a more accurate representation.
-,10_11,Compare both measurements and if they are not the same value continue to make measurements until you are confident you have an accurate measurement.,You need to continue rotating and making measurements; so that you are more confident that you technique is correct.
-,11_11,Record final value on paper to the nearest .00X,-
-,,,
-,,,
-15_Char,01_15,Pickup the Electronic Internal Micrometer.,-
-,02_15,Turn on the power by pressing the â€œSETâ€ button once. The gage could also be turned on by just turning the Ratchet stop.,-
-,03_15,Make sure the caliper is in IN (inch) mode. If not; hold the mode button until â€œunitâ€ is displayed on the screen. Then switch the unit by pressing the set button between â€œINâ€ and â€œmmâ€. The value does not matter at this point.,If the Micrometer is not in the correct mode (IN);  you will not attain an accurate reading.
-,04_15,Wipe all 3 contacts clean. Also wipe Calibration ring inside diameter clean.,If you do not wipe clean the contacts from any foreign matter; small specks of debris will add to the true measurement.
-,05_15,Calibrate the Micrometer by retracting the it counter-clockwise to allow the contacts to fit inside the calibration ring. With the gage inside the calibration ring turn the black handle clockwise until the gage makes contact with the inside diameter of the calibration ring. Continue to turn the black handle of the gage until you feel or hear the rachet engaged. Take measurent only up to 3 digits after the decimal point.,The purpose of the calibration ring is to give the gage a reference point near the anticipated dimension.\nIf you turn the gage inside the ring in the wrong direction; the gage will fall out of place.\nWhen the ratchet is engaged; the gage should stay in place and present a true measurement.
-,06_15,Press the mode button then the â€œSETâ€ button. Note the value displayed on the screen. Make sure the value on the display is the same as on the calibration ring.,If you forget to press the SET button;  you are not complete in the calibration mode and you will have a false measurement.
-,07_15,Turn black handle of the gage counter-clockwise and remove the micrometer from the calibration ring.,The black handle of the gage must be turned to release the gage to allow extraction.\nIf you turn the black handle in the wrong direction the gage will stay locked in place.
-,08_15,Take 1.246-1.250 Inside Diameter of Hole measurement from the part by inserting the Internal Diameter inside the hole and measuring approximately halfway down into the hole. Continue to turn the black handle clockwise until you feel or hear the rachet engage on the part.,You must take the measurement halfway down the hole; because it should be the truest measurement.  Bellmouthing occurs near the entrance of the hole and can give a larger measurement.\nIf you take a measurement without hearing the engagement of the ratchet; you are not getting an accurate measurement.
-,09_15,Note measurement on paperwork to the nearest .000X,-
-,,,
-,,,
-19_Char,01_19,Locate the Electronic Caliper.,-
-,02_19,Turn on the power by depressing the red button for 2 seconds.,-
+19_Char,01_19,Locate the Electronic Caliper.,
+,02_19,Turn on the power by depressing the red button for 2 seconds.,
 ,03_19,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
 ,04_19,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
 ,05_19,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
 ,06_19,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,07_19,Measure the .110-.120 O-Ring Width with the inside nibs(top) of the caliper by first opening the caliper and capture the surfaces to be measured between the inside measuring contacts being careful not to let the contact points touch/measure into the radius in the base of the O-Ring Groove.,-
+,07_19,Measure the .110-.120 O-Ring Width with the inside nibs(top) of the caliper by first opening the caliper and capture the surfaces to be measured between the inside measuring contacts being careful not to let the contact points touch/measure into the radius in the base of the O-Ring Groove.,
 ,08_19,Slightly rock the caliper back and forth to determine the largest measurest that is displayed on the screen during the rocking motion.,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly.\nIf you do not rock the Caliper back and forth; you will not be getting a true reading.
 ,09_19,Rotate the sample part approximately 180 degrees and make the same measurement.,You need to take this second measurement to make sure there are no inaccuracies or errors in inspection.
 ,10_19,Compare both measurements and if they are not the same value continue to make measurements until you are confident you have an accurate measurement. Record final value on paper to the nearest .00X,
 ,,,
 ,,,
-21_Char,01_21,Locate the Interchangeable Anvil Micrometer.,-
-,02_21,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_21,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The 2nd longest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,04_21,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,05_21,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the 2nd longest Anvil in the group. Slide the Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,06_21,Calibration can be completed with the second longest (2'') calibration Standard. Measure the 2.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 1.999 - 2.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_21, If the previous step is compliant within the tollerance defined then locate two .094 Gage Pins.,-
-,08_21,Locate the Electronic Cailper. ,-
-,09_21,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
-,10_21,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,11_21,Wipe clean with a finger both outside measuring contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,12_21,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
-,13_21,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,14_21,Take the measurement of the two Gage Pins and make sure that they each measure .094. If not; stop and look for correct .094 pins.,-
-,15_21,Holding the Sample Part in hand or fixed on the table and place (1) .094 pin in the clean O-Ring area perpendicular to the sample part and hold in place. Place the other pin 180 degrees from the first pin and now with the two .094 pins in place; measure the entire assembly; as shown.,The pins must be 180 degrees apart from each other to allow for measuring the outside diameter of the O-Ring groove.
-,16_21,Note the value and then subtract .188 (diameter of the two .094 pins) from the this value. Record final value on paper to the nearest .00X,-
 ,,,
 ,,,
-23_Char,01_23,Locate the Interchangeable Anvil Micrometer.,-
+23_Char,01_23,Locate the Interchangeable Anvil Micrometer.,
 ,02_23,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_23,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,04_23,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The shortest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
-,05_23,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,06_23,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the smallest Anvil in the group. Slide the shortest Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
-,07_23,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999 - 3.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,08_23, If the previous step is compliant within the tollerance defined; check 3.990-4.010 Width on the Vee Block sample part or parts. Record value on paper to the nearest .00X.,-
-,,,
-,,,
-24_Char,01_24,Locate the Electronic Caliper.,-
-,02_24,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
-,03_24,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,04_24,Wipe clean with a finger both outside measuring contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,05_24,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
-,06_24,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,07_24,Measure the width of the keyslot and note the value ''X''; using the inside measuring contacts,You need to measure this dimension; becasue this dimension will be used to calculate the final dimension 
-,08_24,Measure the distance between one wall of the keyslot and the bottom surface of the part; as shown; and note the value ''Y''; using the outside measuring contacts. ,You need to measure this dimension; becasue this dimension will also be used to calculate the final dimension 
-,09_24,Add half the value of X with the total value of Y and note the value. Record value on paper to the nearest .00X.,You need to to do this calculation to get the final dimension requested.
-,,,
-,,,
-25_Char,01_25,Locate the Electronic Micrometer. ,-
-,02_25,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_25,Note the mode (IN or mm); make sure the Micrometer in in ''IN'' mode by depressing the left button until ''IN'' is displayed on the screen.,If the Micrometer is not in the correct mode (IN);  you will not attain an accurate reading.
-,04_25,Zero out the Micrometer by turning the Thimble then Friction Thimble clockwise until the micrometer is closed and you hear the ratchet thimble ''Click''. Press Zero button on micrometer.,If you do not zero out the Micrometer and give the gage a starting point of zero; then any elecrtronic error will compound and skew the reading.
-,05_25,Measure the overall height of the vee block and record value to the nearest .00X; as shown.,-
-,,,
-,,,
-26_Char,01_26,Locate the Electronic Micrometer. ,-
-,02_26,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_26,Note the mode (IN or mm); make sure the Micrometer in in ''IN'' mode by depressing the left button until ''IN'' is displayed on the screen.,If the Micrometer is not in the correct mode (IN); you will not attain an accurate reading.
-,04_26,Zero out the Micrometer by turning the Thimble then Friction Thimble clockwise until the micrometer is closed and you hear the ratchet thimble ''Click''. Press Zero button on the Micrometer.,If you do not zero out the Micrometer and give the gage a starting point of zero; then any elecrtronic error will compound and skew the reading.
-,05_26,Measure the overall thickness ''X'' of the vee block and note; as shown.,-
-,06_26,Measure the thickness of the vee block from the top to the recessed area on the bottom ''Y'' and note; as shown.,
-,07_26,Subtract ''Y'' from ''X''; as shown. Record to the nearest .00X.,
-,,,
-,,,
-27_Char,01_27,Locate 6'' scale. Make sure you are using the side of the scale as shown in the photo. 1/50 scale -bottom side,-
-,02_27,With the sample part in the position of the sketch; measure the distance as shown on the drawing. Record the value to the nearest .020.,-
+,03_23,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The shortest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
+,04_23,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
+,05_23,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the smallest Anvil in the group. Slide the shortest Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
+,06_23,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999 - 3.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
+,07_23, If the previous step is compliant within the tollerance defined; check 3.990-4.010 Width on the Vee Block sample part or parts. Record value on paper to the nearest .00X.,
 ,,,
 ,,,
 ,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-28_Char,01_28,Locate the Interchangeable Anvil Micrometer.,-
+28_Char,01_28,Locate the Interchangeable Anvil Micrometer.,
 ,02_28,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
 ,03_28,Identify the 3 Calibration Standards that measure 1''; 2''; and 3'' long. The Calibration Standards can be identified by having an insulated sleeve in the middle. The remaining other 3 items are called Anvils with a collar near one end. The shortest of these Anvils will be used for this inspection.,Different sizes of Anvils are used for each measurement range.  1''-2''; 2''-3''; and 3''-4''\nIf you choose the wrong size Anvil; you will not be able to make the measurement.
 ,04_28,Wipe clean every surface of the Anvils from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
 ,05_28,Unscrew the knurled Anvil cap from the micrometer and remove whatever Anvil was used last and replace it with the smallest Anvil in the group. Slide the shortest Anvil into the micrometer carefully with the threaded end first and tighten the knurled nut to secure the Anvil in place.,If you do not completely secure the Anvil in place; you will not get an accurate measurement.
 ,06_28,Calibration can be completed with the longest (3'') calibration Standard. Measure the 3.000'' Calibration Standard. Only turn the Thimble/Ratchet Knob until it starts ''clicking''. Then stop. The reading must be within 2.999 - 3.001. If it is not then stop and inform instructor. Otherwise; proceed to the next step.,If you do not properly calibrate the Anvil mic; there is guarantee the measurement will be accurate.
-,07_28, If the previous step is compliant within the tollerance defined then locate two .375 Gage Pins.,-
-,08_28,Locate the Electronic Cailper. ,-
-,09_28,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,-
+,07_28, If the previous step is compliant within the tollerance defined then locate two .375 Gage Pins.,
+,08_28,Locate the Electronic Cailper. ,
+,09_28,Turn on the power by depressing the red button for 2 seconds or slide the body of the gage.,
 ,10_28,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
 ,11_28,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
 ,12_28,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
 ,13_28,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,14_28,Find two Gage Pins and make sure that they both measure .375. If not; stop and look for correct (.375) pins.,-
+,14_28,Find two Gage Pins and make sure that they both measure .375. If not; stop and look for correct (.375) pins.,
 ,15_28,Find a strong elastic and place one .375 pin in the clean vee area and hold in place. Place the other pin in the other vee and now with the elastic engage the assembly; as shown.,You should firmly engage the Gage Pins with the vee geometries to precisely measure the distance between them.
-,16_28,Measure across the entire assembly. Record value on paper to the nearest .00X,-
+,16_28,Measure across the entire assembly. Record value on paper to the nearest .00X,
 ,,,
 ,,,
-,,,
-,,,
-29_Char,01_29,Visually compare the overall finish of the two angled surfaces with the S-22 Microfinish Comparator and determine if they meet the 32 Finish or better as on the Comparator. ,Photo of Gage 15 and a pair of eyes.
-,,,
-,,,
-,,,
-,,,
-,,,Sketch pointing to both angled \nsurfaces belongs here.
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-32_Char,01_32,Locate the Electronic Micrometer. ,-
+32_Char,01_32,Locate the Electronic Micrometer. ,
 ,02_32,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
 ,03_32,Note the mode (IN or mm); make sure the Micrometer in in ''IN'' mode by depressing the left button until ''IN'' is displayed on the screen.,If the Micrometer is not in the correct mode (IN); you will not attain an accurate reading.
 ,04_32,Zero out the Micrometer by turning the Thimble then Friction Thimble clockwise until the micrometer is closed and you hear the ratchet thimble ''Click''. Press Zero button on micrometer.,If you do not zero out the Micrometer and give the gage a starting point of zero; then any elecrtronic error will compound and skew the reading.
-,05_32,Measure the overall height of the vee block and note the value as ''.0000X''(record 5 places); as shown.,-
-,06_32,Measure the thickness of the vee block from the top of the part to the upper surface of the vee and note the value as ''0.0000Y''; as shown.,-
-,07_32,Subtract ''Y'' from ''X''; as shown. Record to the nearest .000X.,-
+,05_32,Measure the overall height of the vee block and note the value as ''.0000X''(record 5 places); as shown.,
+,06_32,Measure the thickness of the vee block from the top of the part to the upper surface of the vee and note the value as ''0.0000Y''; as shown.,
+,07_32,Subtract ''Y'' from ''X''; as shown. Record to the nearest .000X.,
 ,,,
 ,,,
-35_Char,01_35,Locate the Electronic Height Gage.,-
+35_Char,01_35,Locate the Electronic Height Gage.,
 ,02_35,Find flat surface to work on; placing a cleaned vee Block with no burrs flat on the short edge. Setup the gage with the beveled extender in place as shown.,It is important for the surface to be clean; because if you do not clean the surface; small specks or foreign matter will add to the true measurement.
 ,03_35,Note mode (IN or mm); make sure the gage is in inch mode by depressing the ''IN/mm'' button.,If the Height Gage is not in the correct mode (IN); you will not attain an accurate reading.
 ,04_35,Unlock clamping levers on back side of gage. Slide the gage head down to bottom out on the table surface.,The clamping levers are used to hold the sliders in place.
 ,05_35,Hold zero button (bottom right) until the display shows .0000.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,06_35,Raise the body of the gage so that the beveled contact can be slid over and touch the top surface of the part. This can be done by raising the body so that it is approxamitely .100 over the surface to be measured; then lock (A) of the clamping screws.,-
-,07_35,Turn the knurled fine adjustment knob to lower the beveled contact until it just touches the surface. Sliding the sample part back and forth under the beveled extender may be necessary to feel the touch. Make sure the base of the gage is firm on the table and the fine adjustments does not lift the base off the table.,-
+,06_35,Raise the body of the gage so that the beveled contact can be slid over and touch the top surface of the part. This can be done by raising the body so that it is approxamitely .100 over the surface to be measured; then lock (A) of the clamping screws.,
+,07_35,Turn the knurled fine adjustment knob to lower the beveled contact until it just touches the surface. Sliding the sample part back and forth under the beveled extender may be necessary to feel the touch. Make sure the base of the gage is firm on the table and the fine adjustments does not lift the base off the table.,
 ,08_35,Record value on paper as ''X'' to the nearest .00X,This value is the height of the part as shown.
-,09_35,Locate the Electronic Caliper.,-
-,10_35,Turn on the power by depressing the red button for 2 seconds.,-
+,09_35,Locate the Electronic Caliper.,
+,10_35,Turn on the power by depressing the red button for 2 seconds.,
 ,11_35,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
 ,12_35,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
 ,13_35,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
 ,14_35,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,15_35,Measure the distance from the edge of the .503 slot width to the right edge of the part per as shown. Note value as ''Y'' to the nearest .00X.,-
-,16_35,Now measure the distance from the edge of the other .503 slot width to the left edge of the part as shown. Note value as ''Z'' to the nearest .00X.,-
-,17_35,Add the values of ''Y'' and ''Z''; then add .503 (2X radius) to that number. Note value on paper as ''W'' to the nearest .00X.,-
-,18_35,Subtract the value of ''W'' calculated in the previous step from value of ''X'' measured using the Height Gage. Record value on paper to the nearest .00X.,-
+,15_35,Measure the distance from the edge of the .503 slot width to the right edge of the part per as shown. Note value as ''Y'' to the nearest .00X.,
+,16_35,Now measure the distance from the edge of the other .503 slot width to the left edge of the part as shown. Note value as ''Z'' to the nearest .00X.,
+,17_35,Add the values of ''Y'' and ''Z''; then add .503 (2X radius) to that number. Note value on paper as ''W'' to the nearest .00X.,
+,18_35,Subtract the value of ''W'' calculated in the previous step from value of ''X'' measured using the Height Gage. Record value on paper to the nearest .00X.,
 ,,,
 ,,,
 ,,,
-,,,
-36_Char,01_36,Locate the Electronic Caliper.,-
-,02_36,Turn on the power by depressing the red button for 2 seconds.,-
-,03_36,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,04_36,Wipe clean with a finger both outside contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,05_36,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.\n
-,06_36,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,07_36,Take the measurement shown by first opening the caliper and capturing the left outside nib on the inside of the hole and the right nib on the outside of the part.,You need to measure this dimension as it will be used to calculate the final dimension required.
-,08_36,Slightly rock the caliper back and forth to determine the smallest measurest that is displayed on the screen during the rocking motion. This will be the true measurement. Record value to nearest .00X,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly.\nIf you do not rock the Caliper back and forth; you will not be getting a true reading.
-,09_36,Add the value of the previous step and .251 (= .502/2) and note value. Record final value on paper to the nearest .00X,-
-,,,
-,,,
-37_Char,01_37,Locate the Thread Plug Gage.,-
+37_Char,01_37,Locate the Thread Plug Gage.,
 ,02_37,Screw the Thread Go end (green side) of the gage into the lower right hole as shown. Continue to turn until you have engaged about 4 complete threads (4 turns).,If the Thread Go side fits; that means the hole and thread sizes are not smaller than the acceptable values.
-,03_37,Locate the Electronic Caliper.,-
-,04_37,Turn on the power by depressing the red button for 2 seconds.,-
+,03_37,Locate the Electronic Caliper.,
+,04_37,Turn on the power by depressing the red button for 2 seconds.,
 ,05_37,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
 ,06_37,Wipe clean with a finger both outside measuring contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
 ,07_37,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
 ,08_37,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,09_37,Position the part as shown in the sketch. Notice the slot between the right set of threaded holes but not between the left set of threaded holes.,-
-,10_37,Measure the distance from the outside edge of the thread gage (outside diameter of threads on green side of thread gage) to the bottom edge of the part as shown. Note Value to the nearest .00X.,-
-,11_37,Subtract  .1847 (norminal Major Diameter of PlugGage/2) from the measurement. Record value on paper to the nearest .00X.,-
-,,,
-,,,
-38_Char,01_38,Locate the Thread Plug Gage.,-
-,02_38,Screw the Thread Go end (green side) of the gage into each threaded hole as shown. Make sure the gage screws smoothly all the way to engage in all the full threads. If the gage does not fit; do not force it.,If the Thread Go side fits; that means the hole and thread sizes are not smaller than the acceptable values.
-,03_38,Try to screw the Thread No-Go end (red side) of the gage into the each threaded as shown. The gage should not be able to engage with the thread past the first full thread. If the gage does not fit; do not force it. ,If the Thread No-Go side of the gage is able to screw into the hole then this hole do not conform to the thread specification.
-,04_38,If the Go side (Green end) goes well into the hole and the No-Go (Red) side does not go; then the threads conform and pass inspection.,-
-,05_38,If the Go side (Green end) and the No-Go (Red end) do not go into the thread compleatly; or both go into the thread completely; then the threads do not conform and fails inspection.,-
-,06_38, Write Pass or Fail on the Inspection Report,-
-,,,
-,,,
-,,,
-,,,
-39_Char,01_39,Locate the Thread Plug Gage,-
-,02_39,Screw the Thread Go end (green side) of the gage into the lower right hole as shown.,the go side should fit or this measurement cannot be performed.
-,03_39,Locate the Electronic Caliper.,-
-,04_39,Turn on the power by depressing the red button for 2 seconds.,-
-,05_39,Note mode (IN or mm); make sure the caliper in inch mode by depressing the left button until ''IN'' is displayed on the screen.,If the Caliper is not in the correct mode (IN); you will not attain an accurate reading.
-,06_39,Wipe clean with a finger both outside measuring contacts feeling for burrs as this is done.,If you do not wipe clean the contacts; small specks or foreign matter will add to the true measurement.
-,07_39,Close up the outside measuring contacts and make sure the contacts are flush together; and that no light shines through when held up in the light.,The purpose of this test is to make sure there is no damage to the outside measuring contacts which might have bent the contacts.  If that is the case; you will see light shine through and the reading will not be accurate.
-,08_39,Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the digital caliper will shut off.,If you forget to press the Zero button; you can introduce an electronic error into the measurement.
-,09_39,Measure the distance from the outside edge of the thread gage (outside diameter of threads on green side of thread gage) to the edge of the part as shown. Note Value to the nearest .00X.,-
-,10_39,Subtract .1847 (norminal major diameter of Plug Gage/2) from the measurement made in the previous step. Record value on paper to the nearest .00X,-
-,,,
-,,,
-,,,
-40_Char,01_40,Locate the Electronic Depth Gage (vernier).,-
-,02_40,Turn on the power by depressing the red button for 2 seconds or slide the body. Note: If not used within 7 minutes; the gage will go to sleep to save the battery.,-
-,03_40,Note mode (IN or mm); make sure the Depth Gage is in IN mode by depressing the left button until ''IN'' is displayed on the screen.,If the Depth Gage is not in the correct mode (IN);  you will not attain an accurate reading.
-,04_40,Make sure the ''hook'' attactment is in place on the depth gage.,If the hook attachment is not in place; the configuration of the gage will not allow you to take the measurement.
-,05_40,Close the slide on the Depth Gage. Zero out the reading by depressing the right ''Zero'' button once. Do not continue to hold button or the gage will shut off.,If you forget to press the Zero button; and not give the gage a starting point of zero; then any electronic error will compound and skew the reading.
-,06_40,Wipe clean every surface of the Depth Gage that will contact with the part from any foreign matter before performing each inspection step.,If you do not wipe clean every surface from any foreign matter; small specks of debris will add to the true measurement.
-,07_40,Open the Depth Gage and measure the Over-All-Length of the sample part.,-
-,08_40,Slightly rock the Depth Gage back and forth to determine the smallest measurest that is displayed on the screen during the rocking motion. This will be the true measurement.,The reason for rocking the Caliper back and forth is that you can watch the digital reading and see the smallest reading(truest measurement) which is when the measurement contacts will be aligned properly.\nIf you do not rock the Caliper back and forth; you will not be getting a true reading.
-,09_40,Record final value on paper to the nearest .00X,-
-,,,
-,,,
-41_Char,01_41,Locate the Electronic Micrometer. ,-
-,02_41,Make sure that the Lock Nut is loose and you hold the Micrometer by the Thermal Insulator.,If the Lock Nut is not loose; the spindle will not rotate and no measurement is possible.\nYou should hold the Micrometer by the Thermal Insulator; because the heat from your hand will effect the reading if you do not.
-,03_41,Note the mode (IN or mm); make sure the Micrometer is in ''IN'' mode by depressing the left button until ''IN'' is displayed on the screen.,If the Micrometer is not in the correct mode (IN); you will not attain an accurate reading.
-,04_41,Zero out the Micrometer by turning the Thimble then Friction Thimble clockwise until the micrometer is closed and you hear the ratchet thimble ''Click''. Press Zero button on the Micrometer.,If you do not zero out the Micrometer and give the gage a starting point of zero; then any elecrtronic error will compound and skew the reading.
-,05_41,Measure the pins and verify one pin the size of .501.,-
-,06_41,Measure other pins and verify one pin the size of .503,-
-,07_41,With the .501 pin; try to fit the pin through the center slot on the part as shown. If it fits; continue to the next step. Otherwise; stop and note ''fail'' on inspection report.,If the .501 does not fit; that means the slot width is smaller than the lower tolerance limit.
-,08_41,With the .503 pin; try to fit the pin through the center slot on the part as shown. If it does not fit through the slot; note ''pass'' on inspection report. Otherwise; note ''fail'' on inspection report.,If the .501 does fit; that means the slot width is larger than the higher tolerance limit.
+,09_37,Position the part as shown in the sketch. Notice the slot between the right set of threaded holes but not between the left set of threaded holes.,
+,10_37,Measure the distance from the outside edge of the thread gage (outside diameter of threads on green side of thread gage) to the bottom edge of the part as shown. Note Value to the nearest .00X.,
+,11_37,Subtract  .1847 (norminal Major Diameter of PlugGage/2) from the measurement. Record value on paper to the nearest .00X.,

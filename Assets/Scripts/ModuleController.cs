@@ -13,6 +13,7 @@ public class ModuleController : MonoBehaviour
 {
     [Header("Main Menu")]
     [SerializeField] GameObject mainMenuObjects;
+    [SerializeField] GameObject welcomeMenuObjects;
 
     [Header("Char Menu")]
     [SerializeField] GameObject charMenuObjects;
@@ -284,6 +285,7 @@ public class ModuleController : MonoBehaviour
     {
         //Reset panels
         modulePanel.SetActive(false);
+        recordingButton.SetActive(false);
         RemoveAdditionalPanelsFromScene();
     }
 
@@ -330,7 +332,7 @@ public class ModuleController : MonoBehaviour
         panelText.text = currentStep.GetStepDestription();
         int currentStepNumber = (currentStepIdx - firstStepInModuleIdx) + 1;
         int totalSteps = steps.Length - firstStepInModuleIdx;
-        panelTitle.text = "Step " + currentStepNumber.ToString() + "/" + totalSteps.ToString();
+        panelTitle.text = "Action " + currentStepNumber.ToString() + "/" + totalSteps.ToString();
     }
 
     private void UpdateButttonNavigationVisibility()
@@ -656,6 +658,7 @@ public class ModuleController : MonoBehaviour
     private void ShowMainMenu()
     {
         mainMenuObjects.SetActive(true);
+        welcomeMenuObjects.SetActive(true);
     }
 
     private void HideMainMenu()
