@@ -3460,7 +3460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: f33389adcc0a1b842913d4bee6ecec90, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -5078,7 +5079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 7cf5c96ecbf097645abeb79e9222d5ae, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -5314,7 +5316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 9ba5a17eeb13e164a86b7ab635709af1, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -6380,7 +6383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: e6482af460eab5b4faf681132b008a73, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -7479,7 +7483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: b61be654d69793e40af300c0dcda02bf, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -7487,7 +7492,7 @@ MonoBehaviour:
   text: 'Take the slide caliper and the O-Ring plug, start recording, <b>attach</b>
     the slide caliper over the part as shown in the video, and then stop recording. '
   firstStepInModule: 0
-  additionalInformation: 
+  additionalInformation: Don't slide the caliper, just put it over the part.
   confirmationText: 
   moduleStepYesConfirmation: 
   moduleStepNoConfirmation: "\r"
@@ -10893,7 +10898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 67f9bd33989a91544af706c4b3a045e9, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -17256,7 +17262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 87be0084f7c1019448b815f6a53bd773, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -18920,7 +18927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 9f9db9eaa7523b5489c8d0d4f2251f0c, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -18928,7 +18936,7 @@ MonoBehaviour:
   text: 'Keep the slide caliper over the O-Ring plug like in the previous step, start
     recording, <b>detach</b> the caliper, and then stop recording. '
   firstStepInModule: 0
-  additionalInformation: 
+  additionalInformation: Don't slide the caliper, just put it off the part.
   confirmationText: 
   moduleStepYesConfirmation: 
   moduleStepNoConfirmation: "\r"
@@ -20369,7 +20377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: ce50e3234b4f54948bb4029c99f62a49, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -21029,7 +21038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 18aceadf60bbf9444bad35a525fe424e, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -21329,7 +21339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: fd12d58cde363e94a94822dbb1a1060c, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -24778,7 +24789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 7dfe9ede071d75e4785795750faed121, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -28868,7 +28880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 97f72b121cca13c42b90e034ef08ace3, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -32199,7 +32212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 6f43370168ede384f848571a6d7edcc2, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -58794,7 +58808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 6c54de65feab24d419ad949a162a2240, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -59305,7 +59320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 7755ea5f7db84924d8398d8bf49dcdcf, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -59869,7 +59885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videos:
-  - {fileID: 32900000, guid: 90070c196f04f284f87c96bbb8753535, type: 3}
+  - {fileID: 32900000, guid: 090fd7f69a860a6428e73874be8cf875, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -62454,7 +62470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videos:
-  - {fileID: 32900000, guid: 0f6db8c6f2841cc42af128bcb5f0c3d8, type: 3}
+  - {fileID: 32900000, guid: dab810e90d25caa4ca5b6beb2d9bda91, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -69466,7 +69482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: eebef80e2c4887047a0c78ea25ccc596, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -70807,7 +70824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 24a85074dd8839f4680c83cbcd0f2807, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
@@ -81411,7 +81429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edef45a1236d3c64da523ee4c3fb9e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videos: []
+  videos:
+  - {fileID: 32900000, guid: 608bd28c13637184bb6d679e3c458a7f, type: 3}
   audioClips:
   - {fileID: 0}
   images: []
