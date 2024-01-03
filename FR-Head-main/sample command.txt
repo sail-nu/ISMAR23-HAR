@@ -1,0 +1,9 @@
+python main.py --config config/phi/default_stgcn.yaml --work-dir results/phi/final_1 --cl-mode ST-Multi-Level --w-multi-cl-loss 0.1 0.2 0.5 1 --w-cl-loss 1 --device 0 --num-worker=0
+
+value shape =  (111, 26, 3)
+data shape =  (3, 52, 26, 1)
+([62, 3, 52, 26, 1])
+
+python main_live.py --config config/phi/default_stgcn.yaml --work-dir results/phi/demo --phase test --save-score True --weights results/phi/stgcn_mini_frhead_2/runs-63-17514.pt --device 0
+
+python main_live_imu_gage.py --config config/phi/default_stgcn.yaml --work-dir results/phi/demo --phase test --save-score True --weights results/phi/stgcn_mini_frhead_2/runs-63-17514.pt --device 0

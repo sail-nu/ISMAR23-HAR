@@ -1,0 +1,665 @@
+[ Mon Jun  5 03:13:57 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:13:57 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:13:57 2023 ] # Parameters: 1772277
+[ Mon Jun  5 03:13:57 2023 ] Training epoch: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 525, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 459, in start
+    self.train(epoch, save_model=True)
+  File "D:\CV_Projects\FR-Head-main\main.py", line 315, in train
+    output, cl_loss = self.model(calc_diff_modality(data, **self.train_modality), label, get_cl_loss=True)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 266, in forward
+    return self.get_ST_Multi_Level_cl_output(x, feat_low, feat_mid, feat_fin, label)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 223, in get_ST_Multi_Level_cl_output
+    cl_low = self.ren_low(feat_low, label.detach(), logits.detach())
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 206, in forward
+    spatio_cl_loss = self.spatio_cl_net(spatio_feat, lbl, logit, **kwargs)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 166, in forward
+    f_mem, f_fn, f_fp = self.local_avg_tp_fn_fp(feature, mask, fn, fp)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 60, in local_avg_tp_fn_fp
+    f_fn = torch.matmul(f, fn)  # [C, K]
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x64 and 16x16)
+
+[ Mon Jun  5 03:22:27 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:22:27 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:22:27 2023 ] # Parameters: 1785381
+[ Mon Jun  5 03:22:27 2023 ] Training epoch: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 525, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 459, in start
+    self.train(epoch, save_model=True)
+  File "D:\CV_Projects\FR-Head-main\main.py", line 315, in train
+    output, cl_loss = self.model(calc_diff_modality(data, **self.train_modality), label, get_cl_loss=True)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 266, in forward
+    return self.get_ST_Multi_Level_cl_output(x, feat_low, feat_mid, feat_fin, label)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 226, in get_ST_Multi_Level_cl_output
+    cl_fin = self.ren_fin(feat_fin, label.detach(), logits.detach())
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 206, in forward
+    spatio_cl_loss = self.spatio_cl_net(spatio_feat, lbl, logit, **kwargs)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 166, in forward
+    f_mem, f_fn, f_fp = self.local_avg_tp_fn_fp(feature, mask, fn, fp)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 60, in local_avg_tp_fn_fp
+    f_fn = torch.matmul(f, fn)  # [C, K]
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x32 and 16x16)
+
+[ Mon Jun  5 03:23:50 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:23:50 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:23:50 2023 ] # Parameters: 1793603
+[ Mon Jun  5 03:23:50 2023 ] Training epoch: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 525, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 459, in start
+    self.train(epoch, save_model=True)
+  File "D:\CV_Projects\FR-Head-main\main.py", line 315, in train
+    output, cl_loss = self.model(calc_diff_modality(data, **self.train_modality), label, get_cl_loss=True)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 266, in forward
+    return self.get_ST_Multi_Level_cl_output(x, feat_low, feat_mid, feat_fin, label)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 226, in get_ST_Multi_Level_cl_output
+    cl_fin = self.ren_fin(feat_fin, label.detach(), logits.detach())
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 206, in forward
+    spatio_cl_loss = self.spatio_cl_net(spatio_feat, lbl, logit, **kwargs)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 166, in forward
+    f_mem, f_fn, f_fp = self.local_avg_tp_fn_fp(feature, mask, fn, fp)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 60, in local_avg_tp_fn_fp
+    f_fn = torch.matmul(f, fn)  # [C, K]
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x32 and 16x16)
+
+[ Mon Jun  5 03:27:40 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:27:40 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:27:41 2023 ] # Parameters: 1654481
+[ Mon Jun  5 03:27:41 2023 ] Training epoch: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 525, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 459, in start
+    self.train(epoch, save_model=True)
+  File "D:\CV_Projects\FR-Head-main\main.py", line 315, in train
+    output, cl_loss = self.model(calc_diff_modality(data, **self.train_modality), label, get_cl_loss=True)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 266, in forward
+    return self.get_ST_Multi_Level_cl_output(x, feat_low, feat_mid, feat_fin, label)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 226, in get_ST_Multi_Level_cl_output
+    cl_fin = self.ren_fin(feat_fin, label.detach(), logits.detach())
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 206, in forward
+    spatio_cl_loss = self.spatio_cl_net(spatio_feat, lbl, logit, **kwargs)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 166, in forward
+    f_mem, f_fn, f_fp = self.local_avg_tp_fn_fp(feature, mask, fn, fp)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 60, in local_avg_tp_fn_fp
+    f_fn = torch.matmul(f, fn)  # [C, K]
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x32 and 16x16)
+
+[ Mon Jun  5 03:29:11 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:29:11 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:29:11 2023 ] # Parameters: 1650897
+[ Mon Jun  5 03:29:11 2023 ] Training epoch: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 525, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 459, in start
+    self.train(epoch, save_model=True)
+  File "D:\CV_Projects\FR-Head-main\main.py", line 315, in train
+    output, cl_loss = self.model(calc_diff_modality(data, **self.train_modality), label, get_cl_loss=True)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 266, in forward
+    return self.get_ST_Multi_Level_cl_output(x, feat_low, feat_mid, feat_fin, label)
+  File "D:\CV_Projects\FR-Head-main\model\stgcn.py", line 226, in get_ST_Multi_Level_cl_output
+    cl_fin = self.ren_fin(feat_fin, label.detach(), logits.detach())
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 206, in forward
+    spatio_cl_loss = self.spatio_cl_net(spatio_feat, lbl, logit, **kwargs)
+  File "D:\Anaconda\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 166, in forward
+    f_mem, f_fn, f_fp = self.local_avg_tp_fn_fp(feature, mask, fn, fp)
+  File "D:\CV_Projects\FR-Head-main\model\lib.py", line 60, in local_avg_tp_fn_fp
+    f_fn = torch.matmul(f, fn)  # [C, K]
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x64 and 16x16)
+
+[ Mon Jun  5 03:29:49 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:29:49 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:29:49 2023 ] # Parameters: 1661649
+[ Mon Jun  5 03:29:49 2023 ] Training epoch: 1
+[ Mon Jun  5 03:32:17 2023 ] using warm up, epoch: 5
+[ Mon Jun  5 03:32:17 2023 ] Parameters:
+{'work_dir': 'results/phi/stgcn_mini_frhead_2', 'model_saved_name': 'results/phi/stgcn_mini_frhead_2\\runs', 'config': 'config/phi/default_stgcn.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_phi.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.stgcn.Model', 'model_args': {'num_class': 16, 'num_point': 26, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.phi.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': 'ST-Multi-Level', 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1.0], 'base_lr': 0.1, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Mon Jun  5 03:32:17 2023 ] # Parameters: 1661649
+[ Mon Jun  5 03:32:17 2023 ] Training epoch: 1
+[ Mon Jun  5 03:32:43 2023 ] 	Mean training loss: 2.5239.  Mean training acc: 31.59%.
+[ Mon Jun  5 03:32:43 2023 ] 	Time consumption: [Data]13%, [Network]86%
+[ Mon Jun  5 03:32:43 2023 ] Eval epoch: 1
+[ Mon Jun  5 03:32:43 2023 ] 	Mean test loss of 8 batches: 1.7365627884864807.
+[ Mon Jun  5 03:32:43 2023 ] 	Top1: 50.98%
+[ Mon Jun  5 03:32:43 2023 ] 	Top5: 82.94%
+[ Mon Jun  5 03:32:43 2023 ] Training epoch: 2
+[ Mon Jun  5 03:33:05 2023 ] 	Mean training loss: 1.4832.  Mean training acc: 54.29%.
+[ Mon Jun  5 03:33:05 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:33:06 2023 ] Eval epoch: 2
+[ Mon Jun  5 03:33:06 2023 ] 	Mean test loss of 8 batches: 1.375529631972313.
+[ Mon Jun  5 03:33:06 2023 ] 	Top1: 55.29%
+[ Mon Jun  5 03:33:06 2023 ] 	Top5: 91.96%
+[ Mon Jun  5 03:33:06 2023 ] Training epoch: 3
+[ Mon Jun  5 03:33:31 2023 ] 	Mean training loss: 1.0853.  Mean training acc: 65.58%.
+[ Mon Jun  5 03:33:31 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:33:31 2023 ] Eval epoch: 3
+[ Mon Jun  5 03:33:32 2023 ] 	Mean test loss of 8 batches: 1.0798457637429237.
+[ Mon Jun  5 03:33:32 2023 ] 	Top1: 68.24%
+[ Mon Jun  5 03:33:32 2023 ] 	Top5: 95.29%
+[ Mon Jun  5 03:33:32 2023 ] Training epoch: 4
+[ Mon Jun  5 03:33:56 2023 ] 	Mean training loss: 0.8695.  Mean training acc: 72.32%.
+[ Mon Jun  5 03:33:56 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:33:56 2023 ] Eval epoch: 4
+[ Mon Jun  5 03:33:57 2023 ] 	Mean test loss of 8 batches: 0.900569848716259.
+[ Mon Jun  5 03:33:57 2023 ] 	Top1: 71.76%
+[ Mon Jun  5 03:33:57 2023 ] 	Top5: 97.45%
+[ Mon Jun  5 03:33:57 2023 ] Training epoch: 5
+[ Mon Jun  5 03:34:22 2023 ] 	Mean training loss: 0.6607.  Mean training acc: 79.74%.
+[ Mon Jun  5 03:34:22 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:34:22 2023 ] Eval epoch: 5
+[ Mon Jun  5 03:34:22 2023 ] 	Mean test loss of 8 batches: 0.9828378930687904.
+[ Mon Jun  5 03:34:22 2023 ] 	Top1: 77.06%
+[ Mon Jun  5 03:34:22 2023 ] 	Top5: 96.08%
+[ Mon Jun  5 03:34:22 2023 ] Training epoch: 6
+[ Mon Jun  5 03:34:47 2023 ] 	Mean training loss: 0.5040.  Mean training acc: 83.75%.
+[ Mon Jun  5 03:34:47 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:34:47 2023 ] Eval epoch: 6
+[ Mon Jun  5 03:34:48 2023 ] 	Mean test loss of 8 batches: 0.9173557683825493.
+[ Mon Jun  5 03:34:48 2023 ] 	Top1: 72.16%
+[ Mon Jun  5 03:34:48 2023 ] 	Top5: 96.67%
+[ Mon Jun  5 03:34:48 2023 ] Training epoch: 7
+[ Mon Jun  5 03:35:12 2023 ] 	Mean training loss: 0.4127.  Mean training acc: 86.38%.
+[ Mon Jun  5 03:35:12 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:35:12 2023 ] Eval epoch: 7
+[ Mon Jun  5 03:35:13 2023 ] 	Mean test loss of 8 batches: 0.6385208144783974.
+[ Mon Jun  5 03:35:13 2023 ] 	Top1: 81.96%
+[ Mon Jun  5 03:35:13 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:35:13 2023 ] Training epoch: 8
+[ Mon Jun  5 03:35:39 2023 ] 	Mean training loss: 0.3570.  Mean training acc: 88.74%.
+[ Mon Jun  5 03:35:39 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:35:39 2023 ] Eval epoch: 8
+[ Mon Jun  5 03:35:40 2023 ] 	Mean test loss of 8 batches: 0.6126965023577213.
+[ Mon Jun  5 03:35:40 2023 ] 	Top1: 84.12%
+[ Mon Jun  5 03:35:40 2023 ] 	Top5: 97.25%
+[ Mon Jun  5 03:35:40 2023 ] Training epoch: 9
+[ Mon Jun  5 03:36:07 2023 ] 	Mean training loss: 0.3039.  Mean training acc: 90.09%.
+[ Mon Jun  5 03:36:07 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:36:07 2023 ] Eval epoch: 9
+[ Mon Jun  5 03:36:08 2023 ] 	Mean test loss of 8 batches: 0.5265374965965748.
+[ Mon Jun  5 03:36:08 2023 ] 	Top1: 85.29%
+[ Mon Jun  5 03:36:08 2023 ] 	Top5: 97.06%
+[ Mon Jun  5 03:36:08 2023 ] Training epoch: 10
+[ Mon Jun  5 03:36:33 2023 ] 	Mean training loss: 0.2753.  Mean training acc: 91.32%.
+[ Mon Jun  5 03:36:33 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:36:33 2023 ] Eval epoch: 10
+[ Mon Jun  5 03:36:34 2023 ] 	Mean test loss of 8 batches: 0.6499047689139843.
+[ Mon Jun  5 03:36:34 2023 ] 	Top1: 84.51%
+[ Mon Jun  5 03:36:34 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:36:34 2023 ] Training epoch: 11
+[ Mon Jun  5 03:36:58 2023 ] 	Mean training loss: 0.2351.  Mean training acc: 92.67%.
+[ Mon Jun  5 03:36:58 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:36:58 2023 ] Eval epoch: 11
+[ Mon Jun  5 03:36:59 2023 ] 	Mean test loss of 8 batches: 0.5789450593292713.
+[ Mon Jun  5 03:36:59 2023 ] 	Top1: 87.65%
+[ Mon Jun  5 03:36:59 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:36:59 2023 ] Training epoch: 12
+[ Mon Jun  5 03:37:25 2023 ] 	Mean training loss: 0.2269.  Mean training acc: 93.05%.
+[ Mon Jun  5 03:37:25 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:37:25 2023 ] Eval epoch: 12
+[ Mon Jun  5 03:37:25 2023 ] 	Mean test loss of 8 batches: 0.49468003027141094.
+[ Mon Jun  5 03:37:25 2023 ] 	Top1: 88.63%
+[ Mon Jun  5 03:37:25 2023 ] 	Top5: 97.65%
+[ Mon Jun  5 03:37:25 2023 ] Training epoch: 13
+[ Mon Jun  5 03:37:51 2023 ] 	Mean training loss: 0.2152.  Mean training acc: 93.03%.
+[ Mon Jun  5 03:37:51 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:37:51 2023 ] Eval epoch: 13
+[ Mon Jun  5 03:37:52 2023 ] 	Mean test loss of 8 batches: 0.5433943681418896.
+[ Mon Jun  5 03:37:52 2023 ] 	Top1: 86.67%
+[ Mon Jun  5 03:37:52 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:37:52 2023 ] Training epoch: 14
+[ Mon Jun  5 03:38:18 2023 ] 	Mean training loss: 0.1700.  Mean training acc: 94.36%.
+[ Mon Jun  5 03:38:18 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:38:18 2023 ] Eval epoch: 14
+[ Mon Jun  5 03:38:18 2023 ] 	Mean test loss of 8 batches: 0.48299326561391354.
+[ Mon Jun  5 03:38:18 2023 ] 	Top1: 87.45%
+[ Mon Jun  5 03:38:18 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:38:19 2023 ] Training epoch: 15
+[ Mon Jun  5 03:38:45 2023 ] 	Mean training loss: 0.2098.  Mean training acc: 93.68%.
+[ Mon Jun  5 03:38:45 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:38:45 2023 ] Eval epoch: 15
+[ Mon Jun  5 03:38:46 2023 ] 	Mean test loss of 8 batches: 0.4934699423611164.
+[ Mon Jun  5 03:38:46 2023 ] 	Top1: 86.08%
+[ Mon Jun  5 03:38:46 2023 ] 	Top5: 97.65%
+[ Mon Jun  5 03:38:46 2023 ] Training epoch: 16
+[ Mon Jun  5 03:39:11 2023 ] 	Mean training loss: 0.1515.  Mean training acc: 95.12%.
+[ Mon Jun  5 03:39:11 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:39:11 2023 ] Eval epoch: 16
+[ Mon Jun  5 03:39:12 2023 ] 	Mean test loss of 8 batches: 0.46621356531977654.
+[ Mon Jun  5 03:39:12 2023 ] 	Top1: 87.25%
+[ Mon Jun  5 03:39:12 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:39:12 2023 ] Training epoch: 17
+[ Mon Jun  5 03:39:37 2023 ] 	Mean training loss: 0.1553.  Mean training acc: 95.03%.
+[ Mon Jun  5 03:39:37 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:39:37 2023 ] Eval epoch: 17
+[ Mon Jun  5 03:39:38 2023 ] 	Mean test loss of 8 batches: 0.4459865093231201.
+[ Mon Jun  5 03:39:38 2023 ] 	Top1: 88.63%
+[ Mon Jun  5 03:39:38 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:39:38 2023 ] Training epoch: 18
+[ Mon Jun  5 03:40:03 2023 ] 	Mean training loss: 0.1551.  Mean training acc: 94.92%.
+[ Mon Jun  5 03:40:03 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:40:03 2023 ] Eval epoch: 18
+[ Mon Jun  5 03:40:04 2023 ] 	Mean test loss of 8 batches: 0.44566082768142223.
+[ Mon Jun  5 03:40:04 2023 ] 	Top1: 89.22%
+[ Mon Jun  5 03:40:04 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:40:04 2023 ] Training epoch: 19
+[ Mon Jun  5 03:40:29 2023 ] 	Mean training loss: 0.1335.  Mean training acc: 95.66%.
+[ Mon Jun  5 03:40:29 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:40:29 2023 ] Eval epoch: 19
+[ Mon Jun  5 03:40:30 2023 ] 	Mean test loss of 8 batches: 0.44399950094521046.
+[ Mon Jun  5 03:40:30 2023 ] 	Top1: 89.22%
+[ Mon Jun  5 03:40:30 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:40:30 2023 ] Training epoch: 20
+[ Mon Jun  5 03:40:55 2023 ] 	Mean training loss: 0.1333.  Mean training acc: 95.35%.
+[ Mon Jun  5 03:40:55 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:40:55 2023 ] Eval epoch: 20
+[ Mon Jun  5 03:40:56 2023 ] 	Mean test loss of 8 batches: 0.49903784319758415.
+[ Mon Jun  5 03:40:56 2023 ] 	Top1: 87.84%
+[ Mon Jun  5 03:40:56 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:40:56 2023 ] Training epoch: 21
+[ Mon Jun  5 03:41:26 2023 ] 	Mean training loss: 0.1446.  Mean training acc: 95.44%.
+[ Mon Jun  5 03:41:26 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:41:26 2023 ] Eval epoch: 21
+[ Mon Jun  5 03:41:27 2023 ] 	Mean test loss of 8 batches: 0.45597464218735695.
+[ Mon Jun  5 03:41:27 2023 ] 	Top1: 89.41%
+[ Mon Jun  5 03:41:27 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:41:27 2023 ] Training epoch: 22
+[ Mon Jun  5 03:41:53 2023 ] 	Mean training loss: 0.1194.  Mean training acc: 96.04%.
+[ Mon Jun  5 03:41:53 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:41:53 2023 ] Eval epoch: 22
+[ Mon Jun  5 03:41:53 2023 ] 	Mean test loss of 8 batches: 0.472896296530962.
+[ Mon Jun  5 03:41:53 2023 ] 	Top1: 88.04%
+[ Mon Jun  5 03:41:53 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:41:53 2023 ] Training epoch: 23
+[ Mon Jun  5 03:42:19 2023 ] 	Mean training loss: 0.1250.  Mean training acc: 95.89%.
+[ Mon Jun  5 03:42:19 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:42:19 2023 ] Eval epoch: 23
+[ Mon Jun  5 03:42:20 2023 ] 	Mean test loss of 8 batches: 0.4649147316813469.
+[ Mon Jun  5 03:42:20 2023 ] 	Top1: 89.41%
+[ Mon Jun  5 03:42:20 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:42:20 2023 ] Training epoch: 24
+[ Mon Jun  5 03:42:45 2023 ] 	Mean training loss: 0.1167.  Mean training acc: 96.16%.
+[ Mon Jun  5 03:42:45 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:42:45 2023 ] Eval epoch: 24
+[ Mon Jun  5 03:42:45 2023 ] 	Mean test loss of 8 batches: 0.40484417602419853.
+[ Mon Jun  5 03:42:45 2023 ] 	Top1: 90.59%
+[ Mon Jun  5 03:42:45 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:42:45 2023 ] Training epoch: 25
+[ Mon Jun  5 03:43:13 2023 ] 	Mean training loss: 0.1097.  Mean training acc: 96.45%.
+[ Mon Jun  5 03:43:13 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:43:13 2023 ] Eval epoch: 25
+[ Mon Jun  5 03:43:14 2023 ] 	Mean test loss of 8 batches: 0.6343542691320181.
+[ Mon Jun  5 03:43:14 2023 ] 	Top1: 86.86%
+[ Mon Jun  5 03:43:14 2023 ] 	Top5: 97.06%
+[ Mon Jun  5 03:43:14 2023 ] Training epoch: 26
+[ Mon Jun  5 03:43:40 2023 ] 	Mean training loss: 0.0912.  Mean training acc: 97.21%.
+[ Mon Jun  5 03:43:40 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:43:40 2023 ] Eval epoch: 26
+[ Mon Jun  5 03:43:41 2023 ] 	Mean test loss of 8 batches: 0.5206447653472424.
+[ Mon Jun  5 03:43:41 2023 ] 	Top1: 88.24%
+[ Mon Jun  5 03:43:41 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:43:41 2023 ] Training epoch: 27
+[ Mon Jun  5 03:44:06 2023 ] 	Mean training loss: 0.1070.  Mean training acc: 96.61%.
+[ Mon Jun  5 03:44:06 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:44:06 2023 ] Eval epoch: 27
+[ Mon Jun  5 03:44:07 2023 ] 	Mean test loss of 8 batches: 0.42283342219889164.
+[ Mon Jun  5 03:44:07 2023 ] 	Top1: 90.39%
+[ Mon Jun  5 03:44:07 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:44:07 2023 ] Training epoch: 28
+[ Mon Jun  5 03:44:33 2023 ] 	Mean training loss: 0.1146.  Mean training acc: 96.61%.
+[ Mon Jun  5 03:44:33 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:44:33 2023 ] Eval epoch: 28
+[ Mon Jun  5 03:44:33 2023 ] 	Mean test loss of 8 batches: 0.4575690068304539.
+[ Mon Jun  5 03:44:33 2023 ] 	Top1: 90.00%
+[ Mon Jun  5 03:44:33 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:44:33 2023 ] Training epoch: 29
+[ Mon Jun  5 03:44:59 2023 ] 	Mean training loss: 0.1018.  Mean training acc: 96.83%.
+[ Mon Jun  5 03:44:59 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:44:59 2023 ] Eval epoch: 29
+[ Mon Jun  5 03:45:00 2023 ] 	Mean test loss of 8 batches: 0.590611644089222.
+[ Mon Jun  5 03:45:00 2023 ] 	Top1: 85.29%
+[ Mon Jun  5 03:45:00 2023 ] 	Top5: 97.45%
+[ Mon Jun  5 03:45:00 2023 ] Training epoch: 30
+[ Mon Jun  5 03:45:25 2023 ] 	Mean training loss: 0.1022.  Mean training acc: 96.65%.
+[ Mon Jun  5 03:45:25 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:45:25 2023 ] Eval epoch: 30
+[ Mon Jun  5 03:45:25 2023 ] 	Mean test loss of 8 batches: 0.6114401556551456.
+[ Mon Jun  5 03:45:25 2023 ] 	Top1: 87.84%
+[ Mon Jun  5 03:45:25 2023 ] 	Top5: 97.45%
+[ Mon Jun  5 03:45:25 2023 ] Training epoch: 31
+[ Mon Jun  5 03:45:53 2023 ] 	Mean training loss: 0.0955.  Mean training acc: 96.83%.
+[ Mon Jun  5 03:45:53 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:45:53 2023 ] Eval epoch: 31
+[ Mon Jun  5 03:45:53 2023 ] 	Mean test loss of 8 batches: 0.5294159539043903.
+[ Mon Jun  5 03:45:53 2023 ] 	Top1: 89.22%
+[ Mon Jun  5 03:45:53 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:45:53 2023 ] Training epoch: 32
+[ Mon Jun  5 03:46:20 2023 ] 	Mean training loss: 0.1042.  Mean training acc: 96.72%.
+[ Mon Jun  5 03:46:20 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:46:20 2023 ] Eval epoch: 32
+[ Mon Jun  5 03:46:21 2023 ] 	Mean test loss of 8 batches: 0.5817053765058517.
+[ Mon Jun  5 03:46:21 2023 ] 	Top1: 87.25%
+[ Mon Jun  5 03:46:21 2023 ] 	Top5: 97.84%
+[ Mon Jun  5 03:46:21 2023 ] Training epoch: 33
+[ Mon Jun  5 03:46:47 2023 ] 	Mean training loss: 0.0951.  Mean training acc: 96.99%.
+[ Mon Jun  5 03:46:47 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:46:47 2023 ] Eval epoch: 33
+[ Mon Jun  5 03:46:48 2023 ] 	Mean test loss of 8 batches: 0.5621539019048214.
+[ Mon Jun  5 03:46:48 2023 ] 	Top1: 85.88%
+[ Mon Jun  5 03:46:48 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:46:48 2023 ] Training epoch: 34
+[ Mon Jun  5 03:47:14 2023 ] 	Mean training loss: 0.0747.  Mean training acc: 97.68%.
+[ Mon Jun  5 03:47:14 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:47:14 2023 ] Eval epoch: 34
+[ Mon Jun  5 03:47:15 2023 ] 	Mean test loss of 8 batches: 0.4957827553153038.
+[ Mon Jun  5 03:47:15 2023 ] 	Top1: 90.39%
+[ Mon Jun  5 03:47:15 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:47:15 2023 ] Training epoch: 35
+[ Mon Jun  5 03:47:42 2023 ] 	Mean training loss: 0.0817.  Mean training acc: 97.32%.
+[ Mon Jun  5 03:47:42 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:47:42 2023 ] Eval epoch: 35
+[ Mon Jun  5 03:47:42 2023 ] 	Mean test loss of 8 batches: 0.5119855906814337.
+[ Mon Jun  5 03:47:42 2023 ] 	Top1: 87.45%
+[ Mon Jun  5 03:47:42 2023 ] 	Top5: 97.45%
+[ Mon Jun  5 03:47:42 2023 ] Training epoch: 36
+[ Mon Jun  5 03:48:14 2023 ] 	Mean training loss: 0.0930.  Mean training acc: 96.94%.
+[ Mon Jun  5 03:48:14 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:48:14 2023 ] Eval epoch: 36
+[ Mon Jun  5 03:48:15 2023 ] 	Mean test loss of 8 batches: 0.4257659763097763.
+[ Mon Jun  5 03:48:15 2023 ] 	Top1: 89.41%
+[ Mon Jun  5 03:48:15 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:48:15 2023 ] Training epoch: 37
+[ Mon Jun  5 03:48:39 2023 ] 	Mean training loss: 0.0986.  Mean training acc: 96.74%.
+[ Mon Jun  5 03:48:39 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:48:39 2023 ] Eval epoch: 37
+[ Mon Jun  5 03:48:40 2023 ] 	Mean test loss of 8 batches: 0.6341475322842598.
+[ Mon Jun  5 03:48:40 2023 ] 	Top1: 86.67%
+[ Mon Jun  5 03:48:40 2023 ] 	Top5: 97.65%
+[ Mon Jun  5 03:48:40 2023 ] Training epoch: 38
+[ Mon Jun  5 03:49:03 2023 ] 	Mean training loss: 0.0652.  Mean training acc: 98.04%.
+[ Mon Jun  5 03:49:03 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:49:03 2023 ] Eval epoch: 38
+[ Mon Jun  5 03:49:04 2023 ] 	Mean test loss of 8 batches: 0.3993589887395501.
+[ Mon Jun  5 03:49:04 2023 ] 	Top1: 92.16%
+[ Mon Jun  5 03:49:04 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:49:04 2023 ] Training epoch: 39
+[ Mon Jun  5 03:49:28 2023 ] 	Mean training loss: 0.0701.  Mean training acc: 97.89%.
+[ Mon Jun  5 03:49:28 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:49:28 2023 ] Eval epoch: 39
+[ Mon Jun  5 03:49:28 2023 ] 	Mean test loss of 8 batches: 0.5660604573786259.
+[ Mon Jun  5 03:49:28 2023 ] 	Top1: 86.86%
+[ Mon Jun  5 03:49:28 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:49:28 2023 ] Training epoch: 40
+[ Mon Jun  5 03:49:52 2023 ] 	Mean training loss: 0.0708.  Mean training acc: 97.53%.
+[ Mon Jun  5 03:49:52 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:49:52 2023 ] Eval epoch: 40
+[ Mon Jun  5 03:49:52 2023 ] 	Mean test loss of 8 batches: 0.4811641722917557.
+[ Mon Jun  5 03:49:52 2023 ] 	Top1: 87.25%
+[ Mon Jun  5 03:49:52 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:49:52 2023 ] Training epoch: 41
+[ Mon Jun  5 03:50:18 2023 ] 	Mean training loss: 0.0914.  Mean training acc: 97.14%.
+[ Mon Jun  5 03:50:18 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:50:18 2023 ] Eval epoch: 41
+[ Mon Jun  5 03:50:19 2023 ] 	Mean test loss of 8 batches: 0.42925699055194855.
+[ Mon Jun  5 03:50:19 2023 ] 	Top1: 91.18%
+[ Mon Jun  5 03:50:19 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:50:19 2023 ] Training epoch: 42
+[ Mon Jun  5 03:50:43 2023 ] 	Mean training loss: 0.0940.  Mean training acc: 96.81%.
+[ Mon Jun  5 03:50:43 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:50:44 2023 ] Eval epoch: 42
+[ Mon Jun  5 03:50:44 2023 ] 	Mean test loss of 8 batches: 0.6142669692635536.
+[ Mon Jun  5 03:50:44 2023 ] 	Top1: 87.84%
+[ Mon Jun  5 03:50:44 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:50:44 2023 ] Training epoch: 43
+[ Mon Jun  5 03:51:08 2023 ] 	Mean training loss: 0.0984.  Mean training acc: 96.74%.
+[ Mon Jun  5 03:51:08 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:51:09 2023 ] Eval epoch: 43
+[ Mon Jun  5 03:51:09 2023 ] 	Mean test loss of 8 batches: 0.5370113588869572.
+[ Mon Jun  5 03:51:09 2023 ] 	Top1: 87.65%
+[ Mon Jun  5 03:51:09 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:51:09 2023 ] Training epoch: 44
+[ Mon Jun  5 03:51:33 2023 ] 	Mean training loss: 0.0960.  Mean training acc: 96.96%.
+[ Mon Jun  5 03:51:33 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:51:33 2023 ] Eval epoch: 44
+[ Mon Jun  5 03:51:34 2023 ] 	Mean test loss of 8 batches: 0.39344210363924503.
+[ Mon Jun  5 03:51:34 2023 ] 	Top1: 92.16%
+[ Mon Jun  5 03:51:34 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:51:34 2023 ] Training epoch: 45
+[ Mon Jun  5 03:51:59 2023 ] 	Mean training loss: 0.0761.  Mean training acc: 97.68%.
+[ Mon Jun  5 03:51:59 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:51:59 2023 ] Eval epoch: 45
+[ Mon Jun  5 03:52:00 2023 ] 	Mean test loss of 8 batches: 0.46197517588734627.
+[ Mon Jun  5 03:52:00 2023 ] 	Top1: 89.22%
+[ Mon Jun  5 03:52:00 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:52:00 2023 ] Training epoch: 46
+[ Mon Jun  5 03:52:28 2023 ] 	Mean training loss: 0.0669.  Mean training acc: 97.89%.
+[ Mon Jun  5 03:52:28 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:52:28 2023 ] Eval epoch: 46
+[ Mon Jun  5 03:52:28 2023 ] 	Mean test loss of 8 batches: 0.3910104911774397.
+[ Mon Jun  5 03:52:28 2023 ] 	Top1: 91.76%
+[ Mon Jun  5 03:52:28 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:52:28 2023 ] Training epoch: 47
+[ Mon Jun  5 03:52:56 2023 ] 	Mean training loss: 0.0645.  Mean training acc: 97.71%.
+[ Mon Jun  5 03:52:56 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:52:56 2023 ] Eval epoch: 47
+[ Mon Jun  5 03:52:56 2023 ] 	Mean test loss of 8 batches: 0.37086739391088486.
+[ Mon Jun  5 03:52:56 2023 ] 	Top1: 90.78%
+[ Mon Jun  5 03:52:56 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:52:56 2023 ] Training epoch: 48
+[ Mon Jun  5 03:53:22 2023 ] 	Mean training loss: 0.0606.  Mean training acc: 98.09%.
+[ Mon Jun  5 03:53:22 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:53:22 2023 ] Eval epoch: 48
+[ Mon Jun  5 03:53:23 2023 ] 	Mean test loss of 8 batches: 0.3788519948720932.
+[ Mon Jun  5 03:53:23 2023 ] 	Top1: 90.98%
+[ Mon Jun  5 03:53:23 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:53:23 2023 ] Training epoch: 49
+[ Mon Jun  5 03:53:51 2023 ] 	Mean training loss: 0.0500.  Mean training acc: 98.38%.
+[ Mon Jun  5 03:53:51 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:53:52 2023 ] Eval epoch: 49
+[ Mon Jun  5 03:53:52 2023 ] 	Mean test loss of 8 batches: 0.41837247647345066.
+[ Mon Jun  5 03:53:52 2023 ] 	Top1: 90.59%
+[ Mon Jun  5 03:53:52 2023 ] 	Top5: 98.04%
+[ Mon Jun  5 03:53:52 2023 ] Training epoch: 50
+[ Mon Jun  5 03:54:24 2023 ] 	Mean training loss: 0.0667.  Mean training acc: 97.82%.
+[ Mon Jun  5 03:54:24 2023 ] 	Time consumption: [Data]14%, [Network]85%
+[ Mon Jun  5 03:54:24 2023 ] Eval epoch: 50
+[ Mon Jun  5 03:54:25 2023 ] 	Mean test loss of 8 batches: 0.4684022031724453.
+[ Mon Jun  5 03:54:25 2023 ] 	Top1: 89.61%
+[ Mon Jun  5 03:54:25 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:54:25 2023 ] Training epoch: 51
+[ Mon Jun  5 03:54:51 2023 ] 	Mean training loss: 0.0393.  Mean training acc: 98.74%.
+[ Mon Jun  5 03:54:51 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:54:51 2023 ] Eval epoch: 51
+[ Mon Jun  5 03:54:51 2023 ] 	Mean test loss of 8 batches: 0.3191416282206774.
+[ Mon Jun  5 03:54:51 2023 ] 	Top1: 92.55%
+[ Mon Jun  5 03:54:51 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:54:51 2023 ] Training epoch: 52
+[ Mon Jun  5 03:55:18 2023 ] 	Mean training loss: 0.0231.  Mean training acc: 99.21%.
+[ Mon Jun  5 03:55:18 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:55:18 2023 ] Eval epoch: 52
+[ Mon Jun  5 03:55:18 2023 ] 	Mean test loss of 8 batches: 0.3054214436560869.
+[ Mon Jun  5 03:55:18 2023 ] 	Top1: 93.53%
+[ Mon Jun  5 03:55:18 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:55:18 2023 ] Training epoch: 53
+[ Mon Jun  5 03:55:47 2023 ] 	Mean training loss: 0.0188.  Mean training acc: 99.57%.
+[ Mon Jun  5 03:55:47 2023 ] 	Time consumption: [Data]14%, [Network]85%
+[ Mon Jun  5 03:55:47 2023 ] Eval epoch: 53
+[ Mon Jun  5 03:55:48 2023 ] 	Mean test loss of 8 batches: 0.2997913481667638.
+[ Mon Jun  5 03:55:48 2023 ] 	Top1: 93.73%
+[ Mon Jun  5 03:55:48 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:55:48 2023 ] Training epoch: 54
+[ Mon Jun  5 03:56:16 2023 ] 	Mean training loss: 0.0187.  Mean training acc: 99.53%.
+[ Mon Jun  5 03:56:16 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:56:16 2023 ] Eval epoch: 54
+[ Mon Jun  5 03:56:17 2023 ] 	Mean test loss of 8 batches: 0.32609471678733826.
+[ Mon Jun  5 03:56:17 2023 ] 	Top1: 92.75%
+[ Mon Jun  5 03:56:17 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:56:17 2023 ] Training epoch: 55
+[ Mon Jun  5 03:56:43 2023 ] 	Mean training loss: 0.0132.  Mean training acc: 99.73%.
+[ Mon Jun  5 03:56:43 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:56:43 2023 ] Eval epoch: 55
+[ Mon Jun  5 03:56:43 2023 ] 	Mean test loss of 8 batches: 0.3341475520282984.
+[ Mon Jun  5 03:56:43 2023 ] 	Top1: 91.96%
+[ Mon Jun  5 03:56:43 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:56:43 2023 ] Training epoch: 56
+[ Mon Jun  5 03:57:12 2023 ] 	Mean training loss: 0.0135.  Mean training acc: 99.64%.
+[ Mon Jun  5 03:57:12 2023 ] 	Time consumption: [Data]14%, [Network]85%
+[ Mon Jun  5 03:57:12 2023 ] Eval epoch: 56
+[ Mon Jun  5 03:57:12 2023 ] 	Mean test loss of 8 batches: 0.3190816594287753.
+[ Mon Jun  5 03:57:13 2023 ] 	Top1: 93.33%
+[ Mon Jun  5 03:57:13 2023 ] 	Top5: 98.24%
+[ Mon Jun  5 03:57:13 2023 ] Training epoch: 57
+[ Mon Jun  5 03:57:36 2023 ] 	Mean training loss: 0.0117.  Mean training acc: 99.69%.
+[ Mon Jun  5 03:57:36 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:57:36 2023 ] Eval epoch: 57
+[ Mon Jun  5 03:57:37 2023 ] 	Mean test loss of 8 batches: 0.3255689609795809.
+[ Mon Jun  5 03:57:37 2023 ] 	Top1: 92.75%
+[ Mon Jun  5 03:57:37 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:57:37 2023 ] Training epoch: 58
+[ Mon Jun  5 03:58:03 2023 ] 	Mean training loss: 0.0135.  Mean training acc: 99.60%.
+[ Mon Jun  5 03:58:03 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:58:03 2023 ] Eval epoch: 58
+[ Mon Jun  5 03:58:04 2023 ] 	Mean test loss of 8 batches: 0.32055516354739666.
+[ Mon Jun  5 03:58:04 2023 ] 	Top1: 92.75%
+[ Mon Jun  5 03:58:04 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:58:04 2023 ] Training epoch: 59
+[ Mon Jun  5 03:58:28 2023 ] 	Mean training loss: 0.0153.  Mean training acc: 99.55%.
+[ Mon Jun  5 03:58:28 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:58:28 2023 ] Eval epoch: 59
+[ Mon Jun  5 03:58:29 2023 ] 	Mean test loss of 8 batches: 0.3242539120838046.
+[ Mon Jun  5 03:58:29 2023 ] 	Top1: 92.75%
+[ Mon Jun  5 03:58:29 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:58:29 2023 ] Training epoch: 60
+[ Mon Jun  5 03:58:57 2023 ] 	Mean training loss: 0.0126.  Mean training acc: 99.62%.
+[ Mon Jun  5 03:58:57 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:58:57 2023 ] Eval epoch: 60
+[ Mon Jun  5 03:58:57 2023 ] 	Mean test loss of 8 batches: 0.30203520599752665.
+[ Mon Jun  5 03:58:57 2023 ] 	Top1: 93.73%
+[ Mon Jun  5 03:58:57 2023 ] 	Top5: 98.63%
+[ Mon Jun  5 03:58:57 2023 ] Training epoch: 61
+[ Mon Jun  5 03:59:23 2023 ] 	Mean training loss: 0.0108.  Mean training acc: 99.75%.
+[ Mon Jun  5 03:59:23 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:59:23 2023 ] Eval epoch: 61
+[ Mon Jun  5 03:59:24 2023 ] 	Mean test loss of 8 batches: 0.30817917082458735.
+[ Mon Jun  5 03:59:24 2023 ] 	Top1: 92.94%
+[ Mon Jun  5 03:59:24 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:59:24 2023 ] Training epoch: 62
+[ Mon Jun  5 03:59:50 2023 ] 	Mean training loss: 0.0099.  Mean training acc: 99.69%.
+[ Mon Jun  5 03:59:50 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 03:59:50 2023 ] Eval epoch: 62
+[ Mon Jun  5 03:59:51 2023 ] 	Mean test loss of 8 batches: 0.3047511726617813.
+[ Mon Jun  5 03:59:51 2023 ] 	Top1: 93.33%
+[ Mon Jun  5 03:59:51 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 03:59:51 2023 ] Training epoch: 63
+[ Mon Jun  5 04:00:16 2023 ] 	Mean training loss: 0.0098.  Mean training acc: 99.71%.
+[ Mon Jun  5 04:00:16 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 04:00:16 2023 ] Eval epoch: 63
+[ Mon Jun  5 04:00:17 2023 ] 	Mean test loss of 8 batches: 0.3013859000056982.
+[ Mon Jun  5 04:00:17 2023 ] 	Top1: 93.73%
+[ Mon Jun  5 04:00:17 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 04:00:17 2023 ] Training epoch: 64
+[ Mon Jun  5 04:00:45 2023 ] 	Mean training loss: 0.0085.  Mean training acc: 99.87%.
+[ Mon Jun  5 04:00:45 2023 ] 	Time consumption: [Data]15%, [Network]84%
+[ Mon Jun  5 04:00:45 2023 ] Eval epoch: 64
+[ Mon Jun  5 04:00:46 2023 ] 	Mean test loss of 8 batches: 0.31599789671599865.
+[ Mon Jun  5 04:00:46 2023 ] 	Top1: 93.14%
+[ Mon Jun  5 04:00:46 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 04:00:46 2023 ] Training epoch: 65
+[ Mon Jun  5 04:01:19 2023 ] 	Mean training loss: 0.0086.  Mean training acc: 99.73%.
+[ Mon Jun  5 04:01:19 2023 ] 	Time consumption: [Data]15%, [Network]85%
+[ Mon Jun  5 04:01:19 2023 ] Eval epoch: 65
+[ Mon Jun  5 04:01:19 2023 ] 	Mean test loss of 8 batches: 0.3131839716807008.
+[ Mon Jun  5 04:01:19 2023 ] 	Top1: 92.94%
+[ Mon Jun  5 04:01:19 2023 ] 	Top5: 98.43%
+[ Mon Jun  5 04:01:19 2023 ] Epoch number: 53
+[ Mon Jun  5 04:01:20 2023 ] Best accuracy: 0.9372549019607843
+[ Mon Jun  5 04:01:20 2023 ] Epoch number: 53
+[ Mon Jun  5 04:01:20 2023 ] Model name: results/phi/stgcn_mini_frhead_2
+[ Mon Jun  5 04:01:20 2023 ] Model total number of params: 1661649
+[ Mon Jun  5 04:01:20 2023 ] Weight decay: 0.0001
+[ Mon Jun  5 04:01:20 2023 ] Base LR: 0.1
+[ Mon Jun  5 04:01:20 2023 ] Batch Size: 16
+[ Mon Jun  5 04:01:20 2023 ] Test Batch Size: 64
+[ Mon Jun  5 04:01:20 2023 ] seed: 1
+[ Wed Jun  7 20:02:08 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:02:08 2023 ] using warm up, epoch: 5
+[ Wed Jun  7 20:03:34 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:03:35 2023 ] using warm up, epoch: 5
+[ Wed Jun  7 20:05:53 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:05:54 2023 ] using warm up, epoch: 5
+[ Wed Jun  7 20:08:15 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:08:15 2023 ] using warm up, epoch: 5
+[ Wed Jun  7 20:13:35 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:13:35 2023 ] using warm up, epoch: 5
+[ Wed Jun  7 20:20:00 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Wed Jun  7 20:20:00 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:23:43 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:23:43 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:24:05 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:24:05 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:24:34 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:24:34 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:25:02 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:25:02 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:26:25 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:26:26 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 16:27:30 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 16:27:30 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 17:01:15 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 17:01:15 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 17:02:01 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 17:02:01 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 17:02:50 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 17:02:51 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 17:03:17 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 17:03:17 2023 ] using warm up, epoch: 5
+[ Sat Jun 10 17:03:35 2023 ] Load weights from results/phi/stgcn_mini_frhead_2/runs-53-14734.pt.
+[ Sat Jun 10 17:03:35 2023 ] using warm up, epoch: 5

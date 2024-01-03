@@ -1,0 +1,66 @@
+[ Sun May 28 16:28:23 2023 ] using warm up, epoch: 5
+[ Sun May 28 16:28:23 2023 ] Parameters:
+{'work_dir': './work_dir/temp', 'model_saved_name': './work_dir/temp\\runs', 'config': 'config/ucla/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ucla.Feeder', 'num_worker': 32, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 10, 'num_point': 20, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.ucla.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': None, 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1], 'base_lr': 0.1, 'step': [50], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Sun May 28 16:28:23 2023 ] # Parameters: 1426892
+[ Sun May 28 16:28:23 2023 ] Training epoch: 1
+[ Sun May 28 17:36:54 2023 ] using warm up, epoch: 5
+[ Sun May 28 17:36:54 2023 ] Parameters:
+{'work_dir': './work_dir/temp', 'model_saved_name': './work_dir/temp\\runs', 'config': 'config/ucla/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ucla.Feeder', 'num_worker': 32, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 10, 'num_point': 20, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.ucla.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': None, 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1], 'base_lr': 0.1, 'step': [50], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Sun May 28 17:36:54 2023 ] # Parameters: 1426892
+[ Sun May 28 17:36:54 2023 ] Training epoch: 1
+[ Sun May 28 17:42:59 2023 ] using warm up, epoch: 5
+[ Sun May 28 17:42:59 2023 ] Parameters:
+{'work_dir': './work_dir/temp', 'model_saved_name': './work_dir/temp\\runs', 'config': 'config/ucla/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ucla.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 10, 'num_point': 20, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.ucla.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': None, 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1], 'base_lr': 0.1, 'step': [50], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 65, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Sun May 28 17:42:59 2023 ] # Parameters: 1426892
+[ Sun May 28 17:42:59 2023 ] Training epoch: 1
+[ Sun May 28 17:45:33 2023 ] 	Mean training loss: 1.6008.  Mean training acc: 51.63%.
+[ Sun May 28 17:45:33 2023 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sun May 28 17:45:33 2023 ] Eval epoch: 1
+[ Sun May 28 17:45:42 2023 ] 	Mean test loss of 8 batches: 0.807969868183136.
+[ Sun May 28 17:45:42 2023 ] 	Top1: 72.41%
+[ Sun May 28 17:45:42 2023 ] 	Top5: 98.28%
+[ Sun May 28 17:45:42 2023 ] Training epoch: 2
+[ Sun May 28 17:48:19 2023 ] 	Mean training loss: 1.0308.  Mean training acc: 63.84%.
+[ Sun May 28 17:48:19 2023 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sun May 28 17:48:19 2023 ] Eval epoch: 2
+[ Sun May 28 17:48:31 2023 ] 	Mean test loss of 8 batches: 0.6060264706611633.
+[ Sun May 28 17:48:31 2023 ] 	Top1: 76.08%
+[ Sun May 28 17:48:31 2023 ] 	Top5: 98.71%
+[ Sun May 28 17:48:31 2023 ] Training epoch: 3
+[ Sun May 28 17:51:03 2023 ] 	Mean training loss: 0.8836.  Mean training acc: 68.53%.
+[ Sun May 28 17:51:03 2023 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sun May 28 17:51:03 2023 ] Eval epoch: 3
+[ Sun May 28 17:51:13 2023 ] 	Mean test loss of 8 batches: 0.7347193136811256.
+[ Sun May 28 17:51:13 2023 ] 	Top1: 72.41%
+[ Sun May 28 17:51:13 2023 ] 	Top5: 98.71%
+[ Sun May 28 17:51:13 2023 ] Training epoch: 4
+[ Sun May 28 17:53:47 2023 ] 	Mean training loss: 0.8038.  Mean training acc: 71.19%.
+[ Sun May 28 17:53:47 2023 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sun May 28 17:53:47 2023 ] Eval epoch: 4
+[ Sun May 28 17:53:58 2023 ] 	Mean test loss of 8 batches: 1.3665003180503845.
+[ Sun May 28 17:53:58 2023 ] 	Top1: 53.88%
+[ Sun May 28 17:53:58 2023 ] 	Top5: 95.91%
+[ Sun May 28 17:53:58 2023 ] Training epoch: 5
+[ Sun May 28 17:55:55 2023 ] using warm up, epoch: 5
+[ Sun May 28 17:55:55 2023 ] Parameters:
+{'work_dir': './work_dir/temp', 'model_saved_name': './work_dir/temp\\runs', 'config': 'config/ucla/default.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ucla.Feeder', 'num_worker': 0, 'train_feeder_args': {'data_path': 'joint', 'label_path': 'train', 'debug': False, 'random_choose': True, 'random_shift': False, 'random_move': False, 'window_size': 52, 'normalization': False, 'repeat': 5}, 'test_feeder_args': {'data_path': 'joint', 'label_path': 'val', 'debug': False}, 'model': 'model.ctrgcn.Model', 'model_args': {'num_class': 10, 'num_point': 20, 'num_frame': 52, 'num_person': 1, 'graph': 'graph.ucla.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'cl_mode': None, 'cl_version': 'V0', 'pred_threshold': 0.0, 'use_p_map': True, 'start_cl_epoch': -1, 'w_cl_loss': 0.1, 'w_multi_cl_loss': [0.1, 0.2, 0.5, 1], 'base_lr': 0.1, 'step': [50], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 1, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Sun May 28 17:55:55 2023 ] # Parameters: 1426892
+[ Sun May 28 17:55:55 2023 ] Training epoch: 1
+[ Sun May 28 17:58:34 2023 ] 	Mean training loss: 1.6008.  Mean training acc: 51.63%.
+[ Sun May 28 17:58:34 2023 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sun May 28 17:58:34 2023 ] Eval epoch: 1
+[ Sun May 28 17:58:44 2023 ] 	Mean test loss of 8 batches: 0.807969868183136.
+[ Sun May 28 17:58:44 2023 ] 	Top1: 72.41%
+[ Sun May 28 17:58:44 2023 ] 	Top5: 98.28%
+[ Sun May 28 17:58:44 2023 ] Epoch number: 1
+Traceback (most recent call last):
+  File "D:\CV_Projects\FR-Head-main\main.py", line 487, in <module>
+    processor.start()
+  File "D:\CV_Projects\FR-Head-main\main.py", line 428, in start
+    weights_path = glob.glob(os.path.join(self.arg.work_dir, 'runs-' + str(self.best_acc_epoch) + '*'))[0]
+IndexError: list index out of range
+
