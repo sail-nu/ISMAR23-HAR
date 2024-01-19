@@ -202,7 +202,7 @@ public class UnityClient : MonoBehaviour
             string result = Encoding.ASCII.GetString(receiveBuffer, 0, bytesRead);
             Debug.Log("Received result: " + result);
 
-            char partSignal = result[result.Length - 2];
+            char partSignal = result[result.Length - 2]; 
             char gageSignal = result[result.Length - 1];
 
             if (partSignal != partOn)
@@ -215,10 +215,10 @@ public class UnityClient : MonoBehaviour
                 switchGageLight();
             }
 
-            textMesh.text = result.Substring(0, result.Length - 20);
-            textGage.text = result.Substring(result.Length - 20, 9);
-            detectedSteps = result.Substring(result.Length - 11, 9); 
-            textSteps.text = result.Substring(result.Length - 11, 9);
+            textMesh.text = result.Substring(0, result.Length - 20); // Hand Action Prediction 
+            textGage.text = result.Substring(result.Length - 20, 9); // Gage Measurement 
+            detectedSteps = result.Substring(result.Length - 11, 9);  // Step Tracking Binary String
+            textSteps.text = result.Substring(result.Length - 11, 9); // Step Tracking Binary String
         }
         catch (Exception e)
         {
